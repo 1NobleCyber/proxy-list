@@ -1,11 +1,11 @@
 {
   "meta": {
-    "version": "v4.1",
-    "revision": "r71",
+    "version": "v4.2",
+    "revision": "r72",
     "last_updated": "May 08, 2026",
-    "unsorted_total": 1965,
+    "unsorted_total": 1966,
     "important_notices": "### Selenite\nThe owner has announced that Selenite is here to stay! The changes made to those links have been reverted and there is currently no plans to remove or change them. Enjoy!",
-    "update_notice": "### Sort Popular Links\nYou can now sort most open links by providers, filters, and opens. This should make it easier for you to find working links faster.\n### UI Improvements\nAdded a back to top button, which takes you back to the top of the webpage\n### Bugfixes\n- Fixed an issue where scrolling did not load the next chunk properly, leading to the list to abruptly end\n- Fixed an issue where the dead link checker wasn't finding links properly\n- Fixed an issue where certain text/buttons were the incorrect font",
+    "update_notice": "### Better Contributions\nContributors, contribution rules, and ways to contribute are now all on the [Contribute page](https://yourworstnightmare1.github.io/proxy-list/contribute).\n### Sorting Unsorted Links\nLinks that are already on our main list are being automatically removed from the unsorted list to minimize the amount of unsorted links we have here. I am also working on moving unsorted links to the main list finally, it takes time as there is nearly 2000 links.\n### Security Patches\nFixed a security vulnerability.",
     "fail_threshold": 3,
     "popular_note": "Hand-picked links that tend to work well — not ranked by site traffic (this page has no analytics). Edit docs/popular_links.json and run scripts/convert_list_to_json.py.",
     "popular_links": [
@@ -148,112 +148,51 @@
     ]
   },
   "link_check": {
-    "checked_at": "2026-05-08T02:32:34Z",
-    "checked_at_display": "2026-05-08 02:32 UTC",
+    "checked_at": "2026-05-08T02:34:50Z",
+    "checked_at_display": "2026-05-08 02:34 UTC",
     "added_count": 0,
-    "removed_count": 63,
+    "removed_count": 15,
     "added_links": [],
     "removed_links": [
-      "https://player-nation.lucianmandru.ro",
-      "https://jyg.fritsche.org",
-      "https://nirbytesfrogiesacrade-eux.bigriversoftware.au",
-      "https://subscribenirbytes-wruoj.monedita.cl",
-      "https://subscribenirbytes-qfuen.rezonuns.de",
-      "https://gummiesandflavors.dinocol.co.uk",
-      "https://greentreescansin.colloky.com.pe",
-      "https://calculusgeometryhelp.wikidelia.net",
-      "https://ilovelarpingsomuch.wikidelia.net",
-      "https://chickenn.msspsparaguay.org",
-      "https://howisthisnotblocked.msspsparaguay.org",
-      "https://ihatenights.msspsparaguay.org",
-      "https://insanity.msspsparaguay.org",
-      "https://nicepeople.msspsparaguay.org",
-      "https://acereading.pandeybikalpa.com.np",
-      "https://ezpz.robroderia.ro",
-      "https://bb.nicksbb.com",
-      "https://material.beecroft-history.com",
-      "https://lunar.ellegisladordigital.com",
-      "https://chrome.v2.ellegisladordigital.com",
-      "https://denied.ellegisladordigital.com",
-      "https://does.this.even.work.ellegisladordigital.com",
-      "https://man.ellegisladordigital.com",
-      "https://mondays.suck.ellegisladordigital.com",
-      "https://elonmusk.ellegisladordigital.com",
-      "https://galaxy.ellegisladordigital.com",
-      "https://overcloaked.ellegisladordigital.com",
-      "https://study.ellegisladordigital.com",
-      "https://bears.rocks.ellegisladordigital.com",
-      "https://ixl.ellegisladordigital.com",
-      "https://nah.ellegisladordigital.com",
-      "https://securly.ellegisladordigital.com",
-      "https://testing.ellegisladordigital.com",
-      "https://education.ellegisladordigital.com",
-      "https://goddomain.ellegisladordigital.com",
-      "https://learn.ellegisladordigital.com",
-      "https://lunar.education.ellegisladordigital.com",
-      "https://lunarv2.ellegisladordigital.com",
-      "https://banana.ellegisladordigital.com",
-      "https://free.robux.ellegisladordigital.com",
-      "https://long.name.ellegisladordigital.com",
-      "https://not.a.wildcard.ellegisladordigital.com",
-      "https://captcha.simulator.ellegisladordigital.com",
-      "https://he.made.a.statement.ellegisladordigital.com",
-      "https://lunaron.top.ellegisladordigital.com",
-      "https://lunarv3.when.ellegisladordigital.com",
-      "https://funfacts.ellegisladordigital.com",
-      "https://goonar.on.loonar.ellegisladordigital.com",
-      "https://lunar.is.goated.ellegisladordigital.com",
-      "https://tired.of.six.seven.ellegisladordigital.com",
-      "https://ryanair.ellegisladordigital.com",
-      "https://best.pr0xy.ellegisladordigital.com",
-      "https://cdn.ellegisladordigital.com",
-      "https://downdetector.ellegisladordigital.com",
-      "https://forlightsped.egevad.se",
-      "https://gambing.egevad.se",
-      "https://cantwaitforlunarv3.egevad.se",
-      "https://uh.egevad.se",
-      "https://uhno.egevad.se",
-      "https://lunar.vcsa.gpu74.ru",
-      "https://electronic.easycharge-batteries.com",
-      "https://ok.beltfrog.com",
-      "https://membership.cravat-club.com"
+      "https://livingwithghosts.gostiljegroup.rs",
+      "https://sciencemath.gtec.ar",
+      "https://yougetcoolmath.aidanwilson.com",
+      "https://classroom.english.grammar.geography.algebra.real3m.com",
+      "https://extremecalculators.web.app",
+      "https://physicstudies.global.ssl.fastly.net",
+      "https://sciencestudy.global.ssl.fastly.net",
+      "https://quizquide.global.ssl.fastly.net",
+      "https://seventimessevenequal49.global.ssl.fastly.net",
+      "https://supportafrica.global.ssl.fastly.net",
+      "https://whyaiisgood.global.ssl.fastly.net",
+      "https://waterforkids.global.ssl.fastly.net",
+      "https://educationalstuff.global.ssl.fastly.net",
+      "https://mangophonktuff.global.ssl.fastly.net",
+      "https://ultrahistory.pandeybikalpa.com.np"
     ]
   },
   "failing_links": {
-    "https://livingwithghosts.gostiljegroup.rs": 2,
-    "https://vorg-has.me-at-gun-point3.cyberninja.ie": 2,
-    "https://vorg-isnt-a-fem.boy3.cyberninja.ie": 2,
-    "https://odz.dpo.co.id/?": 1,
-    "https://learning-science.cloudfare.teimporto.cl": 1,
-    "https://evenmore.delafuentefunerales.cl": 1,
-    "https://sciencemath.gtec.ar": 2,
-    "https://quick-learning.gorich.hk": 1,
-    "https://lllllllllliiillliiiilililililllllllllliiiiii.plik-perm.ru": 1,
-    "https://yougetcoolmath.aidanwilson.com": 2,
-    "https://wednesday.patrickjackman.net": 1,
-    "https://bogisgoingtotheleague.my.to": 2,
-    "https://liluzivert.crabdance.com": 1,
-    "https://physicstudies.global.ssl.fastly.net": 2,
-    "https://sciencestudy.global.ssl.fastly.net": 2,
-    "https://quizquide.global.ssl.fastly.net": 2,
-    "https://stellarwriting.pandeybikalpa.com.np": 1,
-    "https://truemath.pandeybikalpa.com.np": 2,
-    "https://classroom.english.grammar.geography.algebra.real3m.com": 2,
-    "https://velara.cc": 1,
-    "https://lol.greenbaynz.com": 1,
-    "https://math.rcdx93.net": 2,
-    "https://extremecalculators.web.app": 2,
-    "https://seventimessevenequal49.global.ssl.fastly.net": 2,
-    "https://supportafrica.global.ssl.fastly.net": 2,
-    "https://whyaiisgood.global.ssl.fastly.net": 2,
-    "https://waterforkids.global.ssl.fastly.net": 2,
-    "https://educationalstuff.global.ssl.fastly.net": 2,
-    "https://mangophonktuff.global.ssl.fastly.net": 2,
-    "https://ultrahistory.pandeybikalpa.com.np": 2,
-    "https://clapclapclapclapinthebed.aber.ir": 1,
-    "https://securewidget.dns.navy": 1,
-    "https://p1e.dinocol.co.uk": 1,
-    "https://pathedic-girl.was-found.in-my.basement.beerporn.org": 1
+    "https://vcsa-yt.blogspot.com/2026/02/82-new-websites.html": 1,
+    "https://rsfe.sexualidadesrosario.com.ar/?": 1,
+    "http://classroom.monedita.cl": 1,
+    "https://quick-learning.gorich.hk": 2,
+    "https://wednesday.patrickjackman.net": 2,
+    "https://liluzivert.crabdance.com": 2,
+    "https://learnaboutbillclinton.bisblick.org": 1,
+    "https://stellarwriting.pandeybikalpa.com.np": 2,
+    "https://calculus.math.chemistry.geometry.seminar.real3m.com": 1,
+    "https://geometry.grammar.history.assignment.lecture.real3m.com": 1,
+    "https://rchbr.fritsche.org": 1,
+    "https://mathematics.lervs.ro": 1,
+    "https://vorg-isnt-a-fem.boy5.cyberninja.ie": 1,
+    "https://veleranirbytes.fusionid.fi": 1,
+    "https://velara.cc": 2,
+    "https://awxkcn.glyphosateinfood.com": 1,
+    "https://securewidget.dns.navy": 2,
+    "https://p1e.dinocol.co.uk": 2,
+    "https://pathedic-girl.was-found.in-my.basement.beerporn.org": 2,
+    "https://stopsign8.enjoywalensee.ch": 1,
+    "https://lightspeedsotuff.recepist.fi": 1
   },
   "links": [
     {
@@ -617,25 +556,6 @@
         "scramjet"
       ],
       "locked": "",
-      "link": "https://livingwithghosts.gostiljegroup.rs/",
-      "found": "4/18/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
       "link": "https://vorg-has.me-at-gun-point3.cyberninja.ie/",
       "found": "4/18/2026",
       "username": "N/A",
@@ -788,25 +708,6 @@
         "scramjet"
       ],
       "locked": "",
-      "link": "https://sciencemath.gtec.ar/",
-      "found": "4/27/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
       "link": "https://securelyplsspeedineedthis8weudidhske.suwal.com.np/",
       "found": "4/27/2026",
       "username": "N/A",
@@ -865,25 +766,6 @@
       ],
       "locked": "",
       "link": "https://sunsett.cc/",
-      "found": "4/30/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://yougetcoolmath.aidanwilson.com/",
       "found": "4/30/2026",
       "username": "N/A",
       "password": "N/A",
@@ -1036,25 +918,6 @@
       ],
       "locked": "",
       "link": "https://calculus.math.chemistry.geometry.seminar.real3m.com",
-      "found": "5/1/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "1NobleCyber",
-      "contributor_url": "https://github.com/1NobleCyber"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://classroom.english.grammar.geography.algebra.real3m.com",
       "found": "5/1/2026",
       "username": "N/A",
       "password": "N/A",
@@ -7431,25 +7294,6 @@
         "scramjet"
       ],
       "locked": "",
-      "link": "https://extremecalculators.web.app",
-      "found": "5/2/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "🥱 Boredom",
-      "category": "Proxy/Games",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
       "link": "https://boredom.global.ssl.fastly.net",
       "found": "5/2/2026",
       "username": "N/A",
@@ -8609,63 +8453,6 @@
         "scramjet"
       ],
       "locked": "",
-      "link": "https://physicstudies.global.ssl.fastly.net/",
-      "found": "4/30/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "💨 Vapor",
-      "category": "Proxy/Games",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://sciencestudy.global.ssl.fastly.net/",
-      "found": "4/30/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "💨 Vapor",
-      "category": "Proxy/Games",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://quizquide.global.ssl.fastly.net/",
-      "found": "4/30/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "💨 Vapor",
-      "category": "Proxy/Games",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
       "link": "https://silver.dinocol.co.uk",
       "found": "5/4/2026",
       "username": "N/A",
@@ -8876,120 +8663,6 @@
       ],
       "locked": "",
       "link": "https://ingredientsforeducation.org",
-      "found": "5/2/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "💨 Vapor",
-      "category": "Proxy/Games",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://seventimessevenequal49.global.ssl.fastly.net",
-      "found": "5/2/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "💨 Vapor",
-      "category": "Proxy/Games",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://supportafrica.global.ssl.fastly.net",
-      "found": "5/2/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "💨 Vapor",
-      "category": "Proxy/Games",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://whyaiisgood.global.ssl.fastly.net",
-      "found": "5/2/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "💨 Vapor",
-      "category": "Proxy/Games",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://waterforkids.global.ssl.fastly.net",
-      "found": "5/2/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "💨 Vapor",
-      "category": "Proxy/Games",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://educationalstuff.global.ssl.fastly.net",
-      "found": "5/2/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "💨 Vapor",
-      "category": "Proxy/Games",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://mangophonktuff.global.ssl.fastly.net",
       "found": "5/2/2026",
       "username": "N/A",
       "password": "N/A",
@@ -9959,25 +9632,6 @@
       ],
       "locked": "",
       "link": "https://stellarwriting.pandeybikalpa.com.np",
-      "found": "4/30/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "👤 Shadow",
-      "category": "Proxy/Games",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "unknown",
-      "protocol_tags": [
-        "unknown"
-      ],
-      "locked": "",
-      "link": "https://ultrahistory.pandeybikalpa.com.np",
       "found": "4/30/2026",
       "username": "N/A",
       "password": "N/A",
