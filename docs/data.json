@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "v4.2",
-    "revision": "r72",
+    "revision": "r73",
     "last_updated": "May 08, 2026",
     "unsorted_total": 1966,
     "important_notices": "### Selenite\nThe owner has announced that Selenite is here to stay! The changes made to those links have been reverted and there is currently no plans to remove or change them. Enjoy!",
@@ -148,51 +148,39 @@
     ]
   },
   "link_check": {
-    "checked_at": "2026-05-08T02:34:50Z",
-    "checked_at_display": "2026-05-08 02:34 UTC",
+    "checked_at": "2026-05-08T07:22:32Z",
+    "checked_at_display": "2026-05-08 07:22 UTC",
     "added_count": 0,
-    "removed_count": 15,
+    "removed_count": 6,
     "added_links": [],
     "removed_links": [
-      "https://livingwithghosts.gostiljegroup.rs",
-      "https://sciencemath.gtec.ar",
-      "https://yougetcoolmath.aidanwilson.com",
-      "https://classroom.english.grammar.geography.algebra.real3m.com",
-      "https://extremecalculators.web.app",
-      "https://physicstudies.global.ssl.fastly.net",
-      "https://sciencestudy.global.ssl.fastly.net",
-      "https://quizquide.global.ssl.fastly.net",
-      "https://seventimessevenequal49.global.ssl.fastly.net",
-      "https://supportafrica.global.ssl.fastly.net",
-      "https://whyaiisgood.global.ssl.fastly.net",
-      "https://waterforkids.global.ssl.fastly.net",
-      "https://educationalstuff.global.ssl.fastly.net",
-      "https://mangophonktuff.global.ssl.fastly.net",
-      "https://ultrahistory.pandeybikalpa.com.np"
+      "https://wednesday.patrickjackman.net",
+      "https://liluzivert.crabdance.com",
+      "https://p1e.dinocol.co.uk",
+      "https://pathedic-girl.was-found.in-my.basement.beerporn.org",
+      "https://stellarwriting.pandeybikalpa.com.np",
+      "https://securewidget.dns.navy"
     ]
   },
   "failing_links": {
-    "https://vcsa-yt.blogspot.com/2026/02/82-new-websites.html": 1,
-    "https://rsfe.sexualidadesrosario.com.ar/?": 1,
-    "http://classroom.monedita.cl": 1,
-    "https://quick-learning.gorich.hk": 2,
-    "https://wednesday.patrickjackman.net": 2,
-    "https://liluzivert.crabdance.com": 2,
-    "https://learnaboutbillclinton.bisblick.org": 1,
-    "https://stellarwriting.pandeybikalpa.com.np": 2,
-    "https://calculus.math.chemistry.geometry.seminar.real3m.com": 1,
-    "https://geometry.grammar.history.assignment.lecture.real3m.com": 1,
-    "https://rchbr.fritsche.org": 1,
-    "https://mathematics.lervs.ro": 1,
-    "https://vorg-isnt-a-fem.boy5.cyberninja.ie": 1,
-    "https://veleranirbytes.fusionid.fi": 1,
-    "https://velara.cc": 2,
-    "https://awxkcn.glyphosateinfood.com": 1,
-    "https://securewidget.dns.navy": 2,
-    "https://p1e.dinocol.co.uk": 2,
-    "https://pathedic-girl.was-found.in-my.basement.beerporn.org": 2,
-    "https://stopsign8.enjoywalensee.ch": 1,
-    "https://lightspeedsotuff.recepist.fi": 1
+    "https://access.studyhub.cam": 1,
+    "https://math.studyhub.cam": 1,
+    "https://sunsett.cc.cdn.cloudflare.net": 1,
+    "https://evenmore.delafuentefunerales.cl": 1,
+    "http://classroom.monedita.cl": 2,
+    "https://lllllllllliiillliiiilililililllllllllliiiiii.plik-perm.ru": 1,
+    "https://bogisgoingtotheleague.my.to": 1,
+    "https://learnaboutbillclinton.daybits.net": 1,
+    "https://truemath.pandeybikalpa.com.np": 1,
+    "https://epicgrammar.pandeybikalpa.com.np": 1,
+    "https://calculus.math.chemistry.geometry.seminar.real3m.com": 2,
+    "https://geometry.grammar.history.assignment.lecture.real3m.com": 2,
+    "https://seminar.homework.engineering.calculus.art.real3m.com": 1,
+    "https://mathematics.lervs.ro": 2,
+    "https://vorg-isnt-a-fem.boy5.cyberninja.ie": 2,
+    "https://sunsett.cc": 1,
+    "https://lp6zonsuggta.prp.org.mx": 1,
+    "https://stopsign8.enjoywalensee.ch": 2
   },
   "links": [
     {
@@ -803,25 +791,6 @@
         "scramjet"
       ],
       "locked": "",
-      "link": "https://wednesday.patrickjackman.net/",
-      "found": "4/30/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
       "link": "https://bogisgoingtotheleague.my.to/",
       "found": "4/30/2026",
       "username": "N/A",
@@ -847,63 +816,6 @@
       "password": "N/A",
       "contributor": "yourworstnightmare1",
       "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://liluzivert.crabdance.com/",
-      "found": "4/30/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://p1e.dinocol.co.uk",
-      "found": "5/4/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "1NobleCyber",
-      "contributor_url": "https://github.com/1NobleCyber"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://pathedic-girl.was-found.in-my.basement.beerporn.org",
-      "found": "5/4/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "1NobleCyber",
-      "contributor_url": "https://github.com/1NobleCyber"
     },
     {
       "provider": "🌙 Velara",
@@ -9613,25 +9525,6 @@
       ],
       "locked": "",
       "link": "https://alphaenglish.warna.ch",
-      "found": "4/30/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "👤 Shadow",
-      "category": "Proxy/Games",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "unknown",
-      "protocol_tags": [
-        "unknown"
-      ],
-      "locked": "",
-      "link": "https://stellarwriting.pandeybikalpa.com.np",
       "found": "4/30/2026",
       "username": "N/A",
       "password": "N/A",
@@ -29260,25 +29153,6 @@
       ],
       "locked": "",
       "link": "https://math.questions.mfontcuberta.es",
-      "found": "5/2/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "📡 CanLite",
-      "category": "Proxy",
-      "capabilities": "unknown",
-      "capability_tags": [
-        "unknown"
-      ],
-      "protocols": "unknown",
-      "protocol_tags": [
-        "unknown"
-      ],
-      "locked": "",
-      "link": "https://securewidget.dns.navy",
       "found": "5/2/2026",
       "username": "N/A",
       "password": "N/A",
