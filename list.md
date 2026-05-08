@@ -1,6 +1,6 @@
 # Proxy List
 > [!NOTE]
-> v4.1 | Released: May 06, 2026
+> v4.2 | Released: May 07, 2026
 > r71 | Last Updated: May 08, 2026
 > Total onsite links: 4546 (sorted list + unsorted page)\
 > https://yourworstnightmare1.github.io/proxy-list/
@@ -25,16 +25,14 @@ The owner has announced that Selenite is here to stay! The changes made to those
 
 ## Update Notice
 
-### Sort Popular Links
-You can now sort most open links by providers, filters, and opens. This should make it easier for you to find working links faster.
+### Better Contributions
+Contributors, contribution rules, and ways to contribute are now all on the [Contribute page](https://yourworstnightmare1.github.io/proxy-list/contribute).
 
-### UI Improvements
-Added a back to top button, which takes you back to the top of the webpage
+### Sorting Unsorted Links
+Links that are already on our main list are being automatically removed from the unsorted list to minimize the amount of unsorted links we have here. I am also working on moving unsorted links to the main list finally, it takes time as there is nearly 2000 links.
 
-### Bugfixes
-- Fixed an issue where scrolling did not load the next chunk properly, leading to the list to abruptly end
-- Fixed an issue where the dead link checker wasn't finding links properly
-- Fixed an issue where certain text/buttons were the incorrect font
+### Security Patches
+Fixed a security vulnerability.
 
 # 💜 Selenite
 > [!NOTE]
