@@ -9,9 +9,11 @@ on:
     paths:
       - "list.md"
       - "unsorted.md"
+      - "unsorted_raw.txt"
       - "scripts/link_checker.py"
       - "scripts/convert_list_to_json.py"
       - "scripts/update_link_check_meta.py"
+      - "scripts/update_unsorted_from_raw.py"
 
 permissions:
   contents: write
@@ -49,6 +51,10 @@ jobs:
           EXIT_CODE=$?
           echo "Script exit code: $EXIT_CODE"
           set -e
+
+      - name: Rebuild unsorted list
+        run: |
+          python scripts/update_unsorted_from_raw.py
 
       - name: Export web data
         run: |

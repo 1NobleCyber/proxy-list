@@ -2702,7 +2702,7 @@ Added a back to top button, which takes you back to the top of the webpage
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | proxy/games | captcha | scramjet | 2 |
+> | Proxy/Games | captcha | scramjet | 2 |
 
 | Locked | Link | Found Date | Username | Password | Contributor |
 | - | - | - | - | - | - |

@@ -654,8 +654,7 @@
           <a class="btn" href="./unsorted.html">Unsorted links</a>
           <button class="btn" id="selectFilterBtn" type="button">Select filter</button>
           <button class="btn" id="updateNoticeBtn" type="button">Update Notice</button>
-          <a class="btn btn-primary" href="https://github.com/yourworstnightmare1/proxy-list/blob/main/CONTRIBUTING.md" rel="noopener noreferrer" target="_blank">Contribute on GitHub</a>
-          <a class="btn" href="https://forms.gle/SMx9EUkBeiFuLwBa8" rel="noopener noreferrer" target="_blank">Contribute via Google Form</a>
+          <a class="btn btn-primary" href="./contribute/">Contribute</a>
         </nav>
         <p class="selected-filter-label" id="selectedFilterLabel">Selected gn-math filter: Any / Not selected</p>
         <p class="selected-filter-disclaimer">This does not determine if a link is blocked, it is just a highly reliable estimation on knowing whether or not a link is blocked. Some links may still be blocked despite showing unblocked in the summary.</p>
@@ -1092,6 +1091,16 @@
       return map.has(k) ? map.get(k) : 0;
     }
 
+    function canonicalCategory(value) {
+      const raw = String(value == null ? "" : value).trim();
+      const low = raw.toLowerCase();
+      if (low === "proxy/games") return "Proxy/Games";
+      if (low === "games") return "Games";
+      if (low === "proxy") return "Proxy";
+      if (low === "pending") return "pending";
+      return raw;
+    }
+
     function formatClickLineLabel() {
       return useFirebaseClicks ? "Opens (all visitors)" : "Opens (this browser only)";
     }
@@ -1324,7 +1333,7 @@
       return [
         row.link,
         row.provider,
-        row.category,
+        canonicalCategory(row.category),
         row.capabilities,
         row.protocols,
         row.contributor,
@@ -1373,7 +1382,7 @@
     function rowMatchesGroup(row, group, selected, mode) {
       if (!selected.length) return true;
       if (group === "providerTags") return selected.includes(row.provider || "");
-      if (group === "categoryTags") return selected.includes(row.category || "");
+      if (group === "categoryTags") return selected.includes(canonicalCategory(row.category));
       if (group === "protocolTags") {
         const pt = row.protocol_tags || [];
         return selected.some((p) => pt.includes(p));
@@ -1416,7 +1425,7 @@
 
     const FILTER_GROUP_VALUES = {
       providerTags: (r) => [r.provider || ""],
-      categoryTags: (r) => [r.category || ""],
+      categoryTags: (r) => [canonicalCategory(r.category)],
       protocolTags: (r) => r.protocol_tags || [],
       capTags: (r) => r.capability_tags || [],
     };
@@ -1499,7 +1508,7 @@
         "</a></td>" +
         clickCell +
         "<td>" +
-        escapeHtml(r.category) +
+        escapeHtml(canonicalCategory(r.category)) +
         "</td><td>" +
         formatTags(r.capability_tags) +
         "</td><td>" +
@@ -2355,7 +2364,7 @@
     function countRowsWithCategory(rows, value) {
       let n = 0;
       for (const row of rows) {
-        if ((row.category || "") === value) n += 1;
+        if (canonicalCategory(row.category) === value) n += 1;
       }
       return n;
     }
@@ -2466,7 +2475,7 @@
         );
         buildCheckboxGroup(
           "categoryTags",
-          uniq(links.map((d) => d.category)),
+          uniq(links.map((d) => canonicalCategory(d.category))),
           links,
           (v) => countRowsWithCategory(links, v),
           meta,

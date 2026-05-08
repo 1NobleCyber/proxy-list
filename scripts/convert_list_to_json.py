@@ -218,17 +218,23 @@ def load_failing_links() -> dict[str, int]:
     return out
 
 
-def parse_unsorted_links() -> list[dict[str, str]]:
+def parse_unsorted_links(existing_sorted_keys: set[str] | None = None) -> list[dict[str, str]]:
     if not UNSORTED_INPUT.is_file():
         return []
+    existing_sorted_keys = existing_sorted_keys or set()
     raw = UNSORTED_INPUT.read_text(encoding="utf-8")
     links = re.findall(r"https?://[^\s|)]+", raw)
     seen: set[str] = set()
     out: list[dict[str, str]] = []
     for link in links:
-        if link in seen:
+        nk = _normalize_url_key(link)
+        if not nk or nk in seen:
             continue
-        seen.add(link)
+        # Safety net: if unsorted.md contains a link already present in list.md,
+        # exclude it from docs/unsorted.json.
+        if nk in existing_sorted_keys:
+            continue
+        seen.add(nk)
         out.append({"link": link})
     return out
 
@@ -327,7 +333,8 @@ def main() -> int:
     important = parse_important_notices(raw)
     update_notice = parse_update_notice(raw)
     links = parse_list_md(raw)
-    unsorted_links = parse_unsorted_links()
+    sorted_keys = {_normalize_url_key(row.get("link", "")) for row in links if row.get("link")}
+    unsorted_links = parse_unsorted_links(sorted_keys)
     popular_urls, popular_note = load_popular_config()
     popular_entries = resolve_popular_entries(links, popular_urls)
     payload = {

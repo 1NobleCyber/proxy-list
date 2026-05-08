@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contribute | Proxy list</title>
+  <link rel="icon" type="image/png" href="../favicon.png" />
+  <style>
+    :root {
+      --bg: #0f1419;
+      --surface: #1a222d;
+      --border: #2d3a4d;
+      --text: #e7ecf3;
+      --muted: #8b9cb3;
+      --accent: #6cb3ff;
+      --ok: #3ecf8e;
+      --warn: #ffd57e;
+      --font: "Segoe UI", system-ui, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: var(--font);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    header {
+      padding: 1.2rem 1.4rem;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+    h1 { margin: 0 0 0.35rem; font-size: 1.35rem; }
+    .sub { margin: 0; color: var(--muted); font-size: 0.9rem; }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 1rem 1.2rem 2rem;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      margin: 0.6rem 0 1rem;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 0.8rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      text-decoration: none;
+      color: var(--text);
+      background: #121920;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+    .btn:hover { border-color: var(--accent); color: var(--accent); }
+    .btn-primary {
+      border-color: #2d5588;
+      color: var(--accent);
+      background: #1e3a5f;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+    @media (min-width: 980px) {
+      .grid {
+        grid-template-columns: 1.1fr 0.9fr;
+      }
+    }
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--surface);
+      padding: 0.9rem 1rem;
+    }
+    .card h2 {
+      margin: 0 0 0.6rem;
+      font-size: 1.05rem;
+    }
+    .muted { color: var(--muted); }
+    .rules {
+      margin: 0.2rem 0 0;
+      padding-left: 1.1rem;
+    }
+    .rules li { margin: 0.45rem 0; }
+    code {
+      background: #121920;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.1rem 0.35rem;
+      font-size: 0.82em;
+    }
+    .pill-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      margin-top: 0.5rem;
+    }
+    .pill {
+      border: 1px solid #5f4b2d;
+      color: var(--warn);
+      background: #2a2215;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      padding: 0.14rem 0.5rem;
+    }
+    .contributors-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.65rem;
+    }
+    .contributors-meta {
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+    th, td {
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      padding: 0.5rem 0.45rem;
+      vertical-align: top;
+    }
+    th { color: var(--muted); font-weight: 600; }
+    td.count {
+      color: var(--ok);
+      font-variant-numeric: tabular-nums;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .back-row {
+      margin-top: 0.9rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    a { color: var(--accent); word-break: break-word; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contribute</h1>
+    <p class="sub">Submit links, review contributors, and follow the formatting/rules in one place.</p>
+  </header>
+  <main>
+    <div class="actions">
+      <a class="btn btn-primary" href="https://github.com/yourworstnightmare1/proxy-list/fork" rel="noopener noreferrer" target="_blank">Fork on GitHub</a>
+      <a class="btn" href="https://github.com/yourworstnightmare1/proxy-list/blob/main/CONTRIBUTING.md" rel="noopener noreferrer" target="_blank">Full CONTRIBUTING.md</a>
+      <a class="btn" href="https://forms.gle/SMx9EUkBeiFuLwBa8" rel="noopener noreferrer" target="_blank">Submit via Google Form</a>
+    </div>
+
+    <div class="grid">
+      <section class="card" aria-labelledby="rulesHeading">
+        <h2 id="rulesHeading">Contribution rules</h2>
+        <p class="muted">Short checklist from the project contribution guide.</p>
+        <ol class="rules">
+          <li>Do not submit links that already exist in the list.</li>
+          <li>Links must be working and active when submitted.</li>
+          <li>Keep formatting consistent with <code>list.md</code> table structure.</li>
+          <li>For locked links, include valid username/password or do not submit them.</li>
+          <li>Give a contributor name/alias so credit can be assigned.</li>
+        </ol>
+        <p class="muted">Blocked domains</p>
+        <div class="pill-list">
+          <span class="pill">b-cdn.net</span>
+          <span class="pill">blooket.com</span>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="howHeading">
+        <h2 id="howHeading">How to contribute</h2>
+        <ol class="rules">
+          <li>Use GitHub for direct edits and pull requests.</li>
+          <li>Use Google Form if you want a quick submission path.</li>
+          <li>For GitHub, add rows in the existing table format under the right section.</li>
+          <li>If you add a new section, include emoji + note table + links table.</li>
+        </ol>
+        <p class="muted">Your entries sync to both <code>list.md</code> and the website data files.</p>
+      </section>
+    </div>
+
+    <section class="card" aria-labelledby="contributorsHeading" style="margin-top:1rem;">
+      <div class="contributors-head">
+        <h2 id="contributorsHeading" style="margin:0;">Contributors</h2>
+        <div id="contributorsMeta" class="contributors-meta">Loading contributors…</div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Contributor</th>
+            <th class="count">Links</th>
+          </tr>
+        </thead>
+        <tbody id="contributorsBody">
+          <tr><td class="muted" colspan="2">Loading…</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <div class="back-row">
+      <a class="btn" href="../">Back to proxy list</a>
+      <a class="btn" href="../unsorted.html">View unsorted links</a>
+    </div>
+  </main>
+
+  <script>
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+    }
+
+    function normalizeContributorName(raw) {
+      return String(raw || "").trim() || "Anonymous Contributor";
+    }
+
+    async function loadContributors() {
+      const metaEl = document.getElementById("contributorsMeta");
+      const bodyEl = document.getElementById("contributorsBody");
+      try {
+        const res = await fetch("../data.json");
+        if (!res.ok) throw new Error("Could not load data.json (" + res.status + ")");
+        const payload = await res.json();
+        const links = Array.isArray(payload) ? payload : (payload.links || []);
+        const byName = new Map();
+        let totalRows = 0;
+        for (const row of links) {
+          const name = normalizeContributorName(row && row.contributor);
+          const href = row && row.contributor_url ? String(row.contributor_url).trim() : "";
+          if (!byName.has(name)) byName.set(name, { count: 0, href: "" });
+          const entry = byName.get(name);
+          entry.count += 1;
+          if (!entry.href && /^https?:\/\//i.test(href)) entry.href = href;
+          totalRows += 1;
+        }
+
+        const list = [...byName.entries()]
+          .map(([name, data]) => ({ name, count: data.count, href: data.href }))
+          .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+
+        if (!list.length) {
+          bodyEl.innerHTML = '<tr><td class="muted" colspan="2">No contributors found yet.</td></tr>';
+          metaEl.textContent = "0 contributors";
+          return;
+        }
+
+        bodyEl.innerHTML = list
+          .map((r) => {
+            const label = escapeHtml(r.name);
+            const nameCell = r.href
+              ? '<a href="' + escapeHtml(r.href) + '" rel="noopener noreferrer" target="_blank">' + label + "</a>"
+              : label;
+            return "<tr><td>" + nameCell + '</td><td class="count">' + r.count + "</td></tr>";
+          })
+          .join("");
+
+        metaEl.textContent =
+          list.length + " contributors • " + totalRows + " total links credited";
+      } catch (err) {
+        bodyEl.innerHTML =
+          '<tr><td class="muted" colspan="2">Failed to load contributors. ' +
+          escapeHtml(err && err.message ? err.message : String(err)) +
+          "</td></tr>";
+        metaEl.textContent = "Could not load contributor summary";
+      }
+    }
+
+    loadContributors();
+  </script>
+</body>
+</html>
