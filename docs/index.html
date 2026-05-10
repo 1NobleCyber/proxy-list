@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
+  <!-- AdSense: use site URL https://yourworstnightmare1.github.io/proxy-list/ so ads.txt resolves at …/proxy-list/ads.txt -->
+  <meta name="google-adsense-account" content="ca-pub-8449488085448128" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8449488085448128" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Proxy list</title>
   <link rel="icon" type="image/png" href="favicon.png" />
@@ -99,6 +102,34 @@
     }
     @media (max-width: 840px) {
       aside { border-right: none; border-bottom: 1px solid var(--border); }
+    }
+    /* Bottom_01 — leaderboard 728×90 above site footer */
+    .page-bottom-ad {
+      border-top: 1px solid var(--border);
+      padding: 1.25rem 1rem 1.5rem;
+      background: var(--bg);
+      text-align: center;
+    }
+    .page-bottom-ad-inner {
+      max-width: 728px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    .page-bottom-ad-inner ins.adsbygoogle {
+      display: inline-block;
+      width: 728px;
+      max-width: 100%;
+      height: 90px;
+      vertical-align: top;
+    }
+    .page-bottom-ad-placeholder {
+      margin: 0;
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.45;
+      padding: 1rem;
+      border: 1px dashed var(--border);
+      border-radius: 8px;
     }
     label[for="q"] { display: block; font-size: 0.75rem; color: var(--muted); margin-bottom: 0.35rem; text-transform: uppercase; letter-spacing: 0.04em; }
     input[type="search"] {
@@ -508,19 +539,24 @@
       line-height: 1.4;
     }
     .risk-notice strong { color: #ffe3aa; }
-    #backToTopBtn {
+    .floating-corner-actions {
       position: fixed;
       right: 1rem;
       bottom: 1rem;
       z-index: 25;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      max-width: calc(100vw - 2rem);
+    }
+    #backToTopBtn {
+      flex-shrink: 0;
       box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
     }
     #activeUsersFooterLine {
-      position: fixed;
-      left: 50%;
-      bottom: 1rem;
-      transform: translateX(-50%);
-      z-index: 24;
       margin: 0;
       padding: 0.35rem 0.65rem;
       border-radius: 999px;
@@ -531,6 +567,9 @@
       line-height: 1.2;
       box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
       white-space: nowrap;
+      max-width: min(22rem, calc(100vw - 9rem));
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     #activeUsersFooterLine .active-users-count {
       color: var(--ok);
@@ -538,16 +577,14 @@
       font-variant-numeric: tabular-nums;
     }
     @media (max-width: 640px) {
-      #backToTopBtn {
+      .floating-corner-actions {
         right: 0.75rem;
         bottom: 0.75rem;
+        max-width: calc(100vw - 1.5rem);
       }
       #activeUsersFooterLine {
-        bottom: 0.75rem;
         font-size: 0.74rem;
-        max-width: calc(100vw - 7rem);
-        overflow: hidden;
-        text-overflow: ellipsis;
+        max-width: min(18rem, calc(100vw - 8rem));
       }
     }
     .removal-notice {
@@ -773,6 +810,21 @@
       <div id="tableWrap"></div>
     </main>
   </div>
+  <div class="page-bottom-ad" aria-label="Advertisement">
+    <div class="page-bottom-ad-inner">
+      <!-- Bottom_01 — 728×90 leaderboard -->
+      <ins
+        id="pageFooterAdIns"
+        class="adsbygoogle"
+        style="display: inline-block; width: 728px; height: 90px"
+        data-ad-client="ca-pub-8449488085448128"
+        data-ad-slot="3038848022"
+      ></ins>
+      <p class="page-bottom-ad-placeholder" id="pageFooterAdPlaceholder" hidden>
+        Configure AdSense IDs on the ad unit above if ads do not appear.
+      </p>
+    </div>
+  </div>
   <footer class="site-footer">
     <p>
       Original list by
@@ -784,7 +836,6 @@
       (<code>list.md</code>)
     </p>
     <p id="listVersionLine"></p>
-    <p id="activeUsersFooterLine" aria-live="polite" hidden></p>
   </footer>
   <div class="summary-backdrop" id="summaryBackdrop" aria-hidden="true">
     <section class="summary-modal" role="dialog" aria-modal="true" aria-labelledby="summaryTitle">
@@ -839,7 +890,10 @@
     <img src="loading-spinner.gif" width="80" height="80" alt="" decoding="async" />
     <p class="content-loading-msg">Getting data...</p>
   </div>
-  <button class="btn" id="backToTopBtn" type="button" aria-label="Back to top">Back to top</button>
+  <div class="floating-corner-actions" aria-label="Page tools">
+    <p id="activeUsersFooterLine" aria-live="polite" hidden></p>
+    <button class="btn" id="backToTopBtn" type="button" aria-label="Back to top">Back to top</button>
+  </div>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
@@ -854,6 +908,54 @@
   ></script>
   <script>
     const $ = (id) => document.getElementById(id);
+
+    /** Bottom-of-page AdSense unit (does not run in sidebar — avoids layout breakage). */
+    function initPageFooterAd() {
+      const ins = document.getElementById("pageFooterAdIns");
+      const placeholder = document.getElementById("pageFooterAdPlaceholder");
+      if (!ins) return;
+      const client = String(ins.getAttribute("data-ad-client") || "").trim();
+      const slot = String(ins.getAttribute("data-ad-slot") || "").trim();
+      const looksConfigured =
+        /^ca-pub-\d{10,20}$/.test(client) &&
+        /^\d+$/.test(slot) &&
+        slot.length >= 8 &&
+        !client.includes("XXXX");
+      if (!looksConfigured) {
+        ins.style.display = "none";
+        if (placeholder) placeholder.hidden = false;
+        return;
+      }
+      ins.style.display = "inline-block";
+      ins.style.width = "728px";
+      ins.style.height = "90px";
+      ins.style.maxWidth = "100%";
+      if (placeholder) placeholder.hidden = true;
+      const existing = document.querySelector(
+        'script[src^="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]'
+      );
+      if (existing) {
+        try {
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (_) {}
+        return;
+      }
+      const script = document.createElement("script");
+      script.async = true;
+      script.src =
+        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" +
+        encodeURIComponent(client);
+      script.crossOrigin = "anonymous";
+      script.onload = function () {
+        try {
+          (window.adsbygoogle = window.adsbygoogle || []).push({});
+        } catch (_) {}
+      };
+      document.head.appendChild(script);
+    }
+
+    initPageFooterAd();
+
     /**
      * DOMPurify drops orphan <tr>/<th>/<td> (not under <table>), which broke "Most opened" rows.
      * Wrap table child fragments, sanitize, then take the inner HTML of thead/tbody.
