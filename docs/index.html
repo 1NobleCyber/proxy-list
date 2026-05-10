@@ -356,6 +356,46 @@
       width: 100%;
       pointer-events: none;
     }
+    /* Scroll-chunk skeleton rows (infinite table only) */
+    tr.table-row-skeleton td {
+      padding: 0.5rem 0.55rem;
+      vertical-align: middle;
+      border-bottom: 1px solid var(--border);
+    }
+    tr.table-row-skeleton .table-sk-line {
+      display: block;
+      height: 0.72em;
+      max-width: 100%;
+      border-radius: 4px;
+      background: linear-gradient(
+        90deg,
+        var(--surface) 0%,
+        rgba(130, 160, 190, 0.22) 45%,
+        rgba(130, 160, 190, 0.28) 55%,
+        var(--surface) 100%
+      );
+      background-size: 220% 100%;
+      animation: table-sk-shimmer 1.15s ease-in-out infinite;
+    }
+    tr.table-row-skeleton td:nth-child(1) .table-sk-line { width: 62%; }
+    tr.table-row-skeleton td:nth-child(2) .table-sk-line { width: 94%; }
+    tr.table-row-skeleton td:nth-child(3) .table-sk-line { width: 36%; margin-left: auto; }
+    tr.table-row-skeleton td:nth-child(4) .table-sk-line { width: 58%; }
+    tr.table-row-skeleton td:nth-child(5) .table-sk-line { width: 72%; }
+    tr.table-row-skeleton td:nth-child(6) .table-sk-line { width: 55%; }
+    tr.table-row-skeleton td:nth-child(7) .table-sk-line { width: 48%; }
+    tr.table-row-skeleton:nth-child(5n + 1) td:nth-child(2) .table-sk-line { width: 88%; }
+    tr.table-row-skeleton:nth-child(5n + 3) td:nth-child(1) .table-sk-line { width: 74%; }
+    @keyframes table-sk-shimmer {
+      0% { background-position: 100% 0; }
+      100% { background-position: -100% 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      tr.table-row-skeleton .table-sk-line {
+        animation: none;
+        background: var(--surface);
+      }
+    }
     .summary-backdrop {
       position: fixed;
       inset: 0;
@@ -1468,6 +1508,8 @@
     }
 
     const TABLE_CHUNK_SIZE = 80;
+    /** Smaller batches so the main thread can paint skeleton rows between inserts. */
+    const TABLE_ROW_APPEND_BATCH = 25;
     const TABLE_PREFETCH_PX = 400;
     let tableInfiniteObserver = null;
     let tableInfiniteState = null;
@@ -1488,6 +1530,25 @@
           .join("") +
         "</tr>"
       );
+    }
+
+    function buildSkeletonChunkHtml(rowCount) {
+      const n = Math.max(0, Math.floor(Number(rowCount)) || 0);
+      if (!n) return "";
+      let out = "";
+      for (let r = 0; r < n; r++) {
+        out += '<tr class="table-row-skeleton" aria-hidden="true">';
+        for (let c = 0; c < 7; c++) {
+          out += '<td><span class="table-sk-line"></span></td>';
+        }
+        out += "</tr>";
+      }
+      return out;
+    }
+
+    function removeTableSkeletonRows(tbody) {
+      if (!tbody || !tbody.querySelectorAll) return;
+      tbody.querySelectorAll("tr.table-row-skeleton").forEach((tr) => tr.remove());
     }
 
     /** @param fixedClickCount if set, skips async click refresh for this row */
@@ -1548,13 +1609,24 @@
       if (!st || st.chunkInFlight || st.rendered >= st.filtered.length) return;
       if (!st.tbody.isConnected) return;
       st.chunkInFlight = true;
+      const tbody = st.tbody;
       try {
         const startIndex = st.rendered;
         const next = Math.min(st.rendered + TABLE_CHUNK_SIZE, st.filtered.length);
         const slice = st.filtered.slice(st.rendered, next);
-        const html = slice.map(buildRowTrHtml).join("");
-        insertAdjacentHtmlSafe(st.tbody, "beforeend", html);
+        insertAdjacentHtmlSafe(tbody, "beforeend", buildSkeletonChunkHtml(slice.length));
+        await yieldForSkeletonPaint(tbody);
+        for (let off = 0; off < slice.length; off += TABLE_ROW_APPEND_BATCH) {
+          const part = slice.slice(off, off + TABLE_ROW_APPEND_BATCH);
+          const html = part.map(buildRowTrHtml).join("");
+          insertAdjacentHtmlSafe(tbody, "beforeend", html);
+          if (off + TABLE_ROW_APPEND_BATCH < slice.length) {
+            await waitNextPaint();
+            await new Promise((resolve) => setTimeout(resolve, 0));
+          }
+        }
         st.rendered = next;
+        removeTableSkeletonRows(tbody);
         if (tableInfiniteState !== st) return;
         await refreshClickCellsForSlice(slice, startIndex);
         if (tableInfiniteState !== st || !st.tbody.isConnected) return;
@@ -1566,6 +1638,7 @@
           tableInfiniteObserver = null;
         }
       } finally {
+        if (tbody.isConnected) removeTableSkeletonRows(tbody);
         if (tableInfiniteState === st) {
           st.chunkInFlight = false;
           if (
@@ -1619,6 +1692,13 @@
           requestAnimationFrame(resolve);
         });
       });
+    }
+
+    /** Lets the browser flush layout and paint skeleton rows before heavy row HTML work. */
+    async function yieldForSkeletonPaint(el) {
+      if (el && el.isConnected) void el.offsetHeight;
+      await waitNextPaint();
+      await new Promise((resolve) => setTimeout(resolve, 0));
     }
 
     async function renderAfterHeavyFilter(rows, meta, linkCheck) {

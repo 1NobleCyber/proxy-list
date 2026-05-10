@@ -23,7 +23,7 @@ SECTION_HEADINGS: dict[str, str] = {
     "Fern": "# 🪴 Fern",
     "Korona": "# Korona",
     "Frogies_arcade": "# 🐸 frogie's arcade",
-    "Only_lessons": "# 📚 Only lessons",
+    "Only_lessons": "# OnlyLessons",
     "DogeUB": "# 🐶 dogeub",
     "55gms": "# 55gms",
     "Utopia": "# 🦄 Utopia Education",

@@ -2,7 +2,7 @@
 > [!NOTE]
 > v4.2 | Released: May 07, 2026
 > r78 | Last Updated: May 10, 2026
-> Total onsite links: 4546 (sorted list + unsorted page)\
+> Total onsite links: 4217 (sorted list + unsorted page)\
 > https://yourworstnightmare1.github.io/proxy-list/
 <br>
 Welcome to the official Proxy List! This has a running list of hundreds of unblocked websites and games that anyone is free to use. We have the most popular and reliable sites here, so you'll never run out!
@@ -38,7 +38,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Games | N/A | N/A | 22 |
+> | Games | N/A | N/A | 24 |
 
 | Locked | Link | Found Date | Username | Password | Contributor |
 | - | - | - | - | - | - |
@@ -64,12 +64,14 @@ Fixed a security vulnerability.
 | | https://vcsa.easycharge-batteries.com/ | 4/30/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
 | | https://account.englishbridalcouture.com/ | 4/30/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
 | | https://mail.adriapartners.net/ | 4/30/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
+| | https://jones.smith.brown.john.idk.thongthaitextile.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://math.bio.educated.bull.notariamelipilla.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🌙 Velara
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | captcha | Scramjet | 23 |
+> | Proxy/Games | captcha | Scramjet | 37 |
 
 | Locked | Link | Found Date | Username | Password | Contributor |
 | - | - | - | - | - | - |
@@ -96,12 +98,26 @@ Fixed a security vulnerability.
 | | https://science.weatherpixel.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://awxkcn.glyphosateinfood.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://lightspeedsotuff.recepist.fi | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://educationalyoutube.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://zoobuckz.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://stopsign8.adventurersalmanac.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://stopsign8.adrian-hofer.at/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://stopsign8.enjoywalensee.ch/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://bbrq.consulting-octopus.co.uk | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://mome.bylooma.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://jjju.lastarria43.cl | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://onybj.adm62.ru | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ztt.networkindia.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://beearomi.asturkiters.es/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://sail.with.educated.bulls.poloniacruz.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://bulls.eat.grass.klrmowse.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://chem-test-tomorrow-im-cooked.cravat-club.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # ➗ gn-math
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Games | N/A | N/A | 25 |
+> | Games | N/A | N/A | 57 |
 
 > [!IMPORTANT]
 > View importance notices section if link is broken.
@@ -133,12 +149,44 @@ Fixed a security vulnerability.
 | | https://raw.githack.com/un-pkg/npm/main/bundle-min.svg | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://esm.sh/gh/un-pkg/npm@543b4c5/bundle-min.svg | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://independentschooldistrict.instructure.page.gd | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
+| | https://raw.esm.sh/gh/satucat/clippy@26f4795/FreeBusinessEducation-Logo-Square | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://securly.com.worldmicroscope.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://prageru-server.s3.amazonaws.com/science.html | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://cdn.jsdelivr.net/gh/snoopyeducation/securly.com@main/classlink.com/math.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://cdn.statically.io/gh/snoopyeducation/securly.com@main/classlink.com/math.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://math.refugiodelalma.cl | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://snoopy.education.airlinemeals.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ddd.154-12-247-42.anyip.dev | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://education.154-12-247-42.anyip.dev | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://bobby.154-12-247-42.anyip.dev | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://securly.com.154-12-247-42.anyip.dev | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://gcore.jsdelivr.net/gh/snoopyeducation/securly.com@main/classlink.com/math.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://testingcf.jsdelivr.net/gh/snoopyeducation/securly.com@main/classlink.com/math.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://fastly.jsdelivr.net/gh/snoopyeducation/securly.com@main/classlink.com/math.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://quantil.jsdelivr.net/gh/snoopyeducation/securly.com@main/classlink.com/math.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://originfastly.jsdelivr.net/gh/snoopyeducation/securly.com@main/classlink.com/math.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://tung.tung.netsec.pro | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://cdn.staticdelivr.com/gh/satucat/clippy/main/FreeBusinessEducation-Logo-Square | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://bobby.edu.boostmetabolism.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://cdn.statically.io/gh/daxcodesalt/x3@main/securly.com/classlink.com/FreeBusinessEducation-Logo-Square.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://www.sololearn.com/en/compiler-playground/W6oaP0W77da1 | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | http://breads.clothing.womenclothingtoday.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://assets.editor.p5js.org/69f172b37dd32ec6b4fea8b3/6aa1d475-1de8-4fc9-9a68-9bec26e16dd8.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://codehs.com/sandbox/id/html-ZhExDL/run | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://codehs.com/uploads/033846bd276f79816d02dc24efd7ee2c | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://www.securly.com.stockable.elektrine.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://www.blogger.com/blog/post/preview/2079605435882804026/7033451448351703127 | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://stockstuf.blogspot.com/2026/05/const-newscript-document.html | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://cdn.jsdelivr.net/gh/satucat/clippy@main/FreeBusinessEducation-Logo-Square | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://codehs.com/uploads/edf989a37aad2e8e728ece9cf58a778a | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://assets.editor.p5js.org/69f1348cb0834230516405d0/b6e1c18e-b379-4e00-adf1-87602b4b9f5e.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://www.khanacademy.org/computer-programming/all-about-polar-bears-official/5536966650740736 | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🐸 frogie's arcade
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | captcha | Ultraviolet | 29 |
+> | Proxy/Games | captcha | Ultraviolet | 32 |
 
 | Locked | Link | Found Date | Username | Password | Contributor |
 | - | - | - | - | - | - |
@@ -171,6 +219,9 @@ Fixed a security vulnerability.
 | | https://schoologywork.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://uwubakaheh.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://yassersokawaii.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://sciencehelpforchildren.mindboggle.us/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://sonic-burger.nexus-computing.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://frog.hpsschools.org/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🍌 Jordan's Math Work
 > [!NOTE]
@@ -192,7 +243,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | epoxy, libcurl, wisp, captcha, reflux | Scramjet, Ultraviolet | 48 |
+> | Proxy/Games | epoxy, libcurl, wisp, captcha, reflux | Scramjet, Ultraviolet | 54 |
 
 | Locked | Link | Found Date | Username | Password | Contributor |
 | - | - | - | - | - | - |
@@ -244,6 +295,12 @@ Fixed a security vulnerability.
 | | https://raw.esm.sh/gh/TwiLabs/art/dist/index.svg | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://dy3.real3m.com | 5/1/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://raw.esm.sh/gh/NightProxy/DD-Static@3775f24/dist/index.svg | 5/1/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learnmore.687518.xyz/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learnmore.fxgaming.eu/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learnmore.quickaminos.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learnmore.shure-affiliate.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://update.www.minecraft.info.north-kazakhstan.su.cdn.cloudflare.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://yeah.info.north-kazakhstan.su.cdn.cloudflare.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🚀 Nebulo
 > [!NOTE]
@@ -293,7 +350,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | epoxy, libcurl, wisp | Scramjet, Ultraviolet | 42 |
+> | Proxy/Games | epoxy, libcurl, wisp | Scramjet, Ultraviolet | 47 |
 
 | Locked | Link | Found Date | Username | Password | Contributor |
 | - | - | - | - | - | - |
@@ -339,12 +396,17 @@ Fixed a security vulnerability.
 | | https://mathgames.quickaminos.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://english.neeb.wtf | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://spacing.bull.srivaishnavam.org.au | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
+| | https://learnmore.funvenet.org.ve/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learnmore.haasencloud.de/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learnmorestuff.quickaminos.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learnmore.schoolforlife.online/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learnmore.neeb.wtf/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🪴 Fern
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | unknown | Scramjet, Ultraviolet | 34 |
+> | Proxy/Games | unknown | Scramjet, Ultraviolet | 38 |
 
 > [!IMPORTANT]
 > Fern does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -385,6 +447,10 @@ Fixed a security vulnerability.
 | | https://macrolomath.s3.amazonaws.com/index.html | 5/1/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://s3.amazonaws.com/macrolomath/index.html | 5/1/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://d1ow0xcl2w4e9a.cloudfront.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://s3.amazonaws.com/readvc/index.html | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://s3.amazonaws.com/writevc/index.html | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://s3.amazonaws.com/bullbestyoutuber/index.html | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://bullbestyoutuber.s3.amazonaws.com/index.html | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🟣 UniUB
 > [!NOTE]
@@ -432,7 +498,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | unknown | Scramjet | 34 |
+> | Proxy/Games | unknown | Scramjet | 73 |
 
 > [!IMPORTANT]
 > Truffled does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -473,12 +539,51 @@ Fixed a security vulnerability.
 | | https://mathematics1.lervs.ro | 5/1/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://n8-math.dev | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://tutoring-services.org | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://doc8.themathdoctors.org/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://doc8.tozsugianto.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://tutoring-services.org/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://mathprep.calculuslessons.lol/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://hullos-pizza-restaurant.chanka.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://tung.tung.tung.tung.tung.tungtung.tung.sahur.settiermauro.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://hello-bog-pls-fix-about-blank-thanks.sisfirewall.com.br | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://2135.kavellewatches.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://7542.kavellewatches.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://3574.kavellewatches.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://info.callcentercuritiba.com.br/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://2026math.segurosdepersonas.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://this-is-albert-v.383.li/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ohmb-iforgotsensocloud.blacknapkins.org/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://facility-dentistroof.primebuildings.bg/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://farmlands-policestation.planetlabs.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://fizzlams.snbs.dk/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://fizzylams.skills-sims.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://trampoline-scienceactivity.mushkoorfoods.co.uk/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://newyork-newspaperprinter.socialistsushi.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://calculatorsolver-truffled.azure-cost-estimator.se/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://supermath.salavat.ru/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://history-geographytests.corporateadworld.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://algebra1topics.arionskyclub.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://edu-mathhelper-shop.neo-space.space/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://european-history.elmvp.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://world-peace-volunteerformath.installgentoo.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://www.securly.com.intelligentscada.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://www.securly.com.fixbigoil.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://www.securly.com.ermestel.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://www.securly.com.phi-taiwan.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://www.securly.com.northbangkokfc.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://howtotech.infotechnology.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://classlink.com.de.cdn.cloudflare.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://idk.hldj.nl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://i-havenojobbutidolinks.eastcountywireless.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://docs.hospedajemariafresia.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://gooningfor-life.hospedajemariafresia.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ilovereading.blogmedoc.ru/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🥱 Boredom
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | unknown | Scramjet | 34 |
+> | Proxy/Games | unknown | Scramjet | 40 |
 
 > [!IMPORTANT]
 > Boredom does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -519,12 +624,18 @@ Fixed a security vulnerability.
 | | https://academi.edu.pl | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://about-wikidelia.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://secure-learning-halka.educationalstudies.edu.europeserv.org | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://boredonasndkf.freetls.fastly.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ebutter.chickenkiller.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://homeworkhelper6741.jumpingcrab.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://vps-ac2179fd.vps.ovh.ca/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://docs.remiosenifoundation.org/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://privateproxy2.cisaitss.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 💨 Vapor
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | unknown | Scramjet | 65 |
+> | Proxy/Games | unknown | Scramjet | 78 |
 
 > [!IMPORTANT]
 > Vapor does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -596,12 +707,25 @@ Fixed a security vulnerability.
 | | https://timer.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://wikipedia.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://water.zwanenwater48.nl | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://mededucation.org/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://sciences.global.ssl.fastly.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://dictionary.global.ssl.fastly.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ela.global.ssl.fastly.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://seventimessevenequal49.global.ssl.fastly.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://alexlovedih.chickenkiller.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://primestartootufflol.abc92.ru | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://alexisgay.smelly.cc | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://alexisafemboy.numbercraftacademy.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://159.195.59.55.local-ip.sh | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://65-109-112-222.anyip.dev | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://enjoy.fruits.bananaworld.com.ar/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://yoko.wheels.for.tire.is/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 👤 Shadow
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | unknown | unknown | 70 |
+> | Proxy/Games | unknown | unknown | 91 |
 
 > [!IMPORTANT]
 > Shadow does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -678,12 +802,33 @@ Fixed a security vulnerability.
 | | https://alphagrammar.recreatinganew.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://clevercoding.recreatinganew.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://kupno.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://neatgeo.heidibranlund.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://hyperliterature.heidibranlund.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://sharpphysics.heidibranlund.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://alphareading.heidibranlund.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://quickwriting.heidibranlund.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://sharpgeo.airlinemeals.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://rapidgrammar.airlinemeals.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://primegrammar.airlinemeals.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://corecs.babypos.hk/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://megabio.babypos.hk/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://procs.beltfrog.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://rapidphysics.beltfrog.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://aceenglish.bluntgang.info/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://rapidchem.bluntgang.info/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://truebio.camberleycricket.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://coollogic.camberleycricket.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://wisebio.camberleycricket.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://clevercoding.unionvillelacrosse.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://corephysics.unionvillelacrosse.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://classicpoems.unionvillelacrosse.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://maxgeo.unionvillelacrosse.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🐶 dogeub
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | wisp | Scramjet, Ultraviolet | 78 |
+> | Proxy/Games | wisp | Scramjet, Ultraviolet | 92 |
 
 > [!IMPORTANT]
 > dogeub does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -768,12 +913,26 @@ Fixed a security vulnerability.
 | | https://edu.italianish.beltfrog.com | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://tub.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://vlargestinks.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://edu.italianish.beltfrog.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://tasty.how-to-cook.airlinemeals.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://edu.learn-ela.babypos.hk/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://edu.learning-geometry.bluntgang.info | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://popalarity.edu.camberleycricket.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://get-hired.application.khastat.org | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://college.math-tutoring.xn--jsenkorjaaja-gcb.fi | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://edu.quevo.com.br/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://getaway.champagnewishesandrvdreams.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://edu.nextcomm.com.ar/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://lightbull.klrmowse.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://educationbull.asturkiters.es/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://software.config.bull.stuff.ldeazevedo.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://dodge.ball.pe.activities.fun.colloky.com.pe/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🌕 Lunar
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | wisp | Scramjet, Ultraviolet | 26 |
+> | Proxy/Games | wisp | Scramjet, Ultraviolet | 31 |
 
 > [!IMPORTANT]
 > Lunar does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -809,12 +968,17 @@ Fixed a security vulnerability.
 | | https://lunarphysics.lervs.ro | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://going.verandahotels.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://math.reformarchive.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
+| | https://learning.notariamelipilla.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://lectures.renaca.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://lunar.grahammurryinsuranceagency.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://math.babypos.hk/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://greater.triatlonpacense.es | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 👻 Ghost
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | unknown | Scramjet | 4 |
+> | Proxy/Games | unknown | Scramjet | 14 |
 
 > [!IMPORTANT]
 > Ghost does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -825,6 +989,16 @@ Fixed a security vulnerability.
 | | https://s3.amazonaws.com/ghst/index.html | 4/25/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
 | | https://home.lervs.ro | 5/1/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://learningpolicy.lervs.ro | 5/1/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://thyistof.page.gd/?i=1 | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://superdupereducationalsite.page.gd/?i=1 | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://securely-is-ahh.fwh.is/?i=1 | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://niche-site.nichesite.org/?i=1 | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://victor.is-great.org/?i=1 | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://let-us-have-our-phones-out-of-class.nichesite.org/?i=1 | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://free-money-here.gt.tc/?i=1 | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://spanish-4b-peak.page.gd/?i=2 | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://mathhomeworkhelperthingy.free.nf/?i=1 | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://securely-is-ahh.fwh.is | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🍕 PeteZah
 > [!NOTE]
@@ -921,7 +1095,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | captcha | Scramjet, Ultraviolet | 13 |
+> | Proxy/Games | captcha | Scramjet, Ultraviolet | 14 |
 
 > [!IMPORTANT]
 > This section has not been categorized or checked for protocol(s) and capabilities.
@@ -941,12 +1115,13 @@ Fixed a security vulnerability.
 | | https://everestishigh.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://mteverest.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://whyeverestsotall.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://everest6.asturkiters.es/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🏴 OverCloaked
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | epoxy, libcurl, wisp | Scramjet | 24 |
+> | Proxy/Games | epoxy, libcurl, wisp | Scramjet | 36 |
 
 > [!IMPORTANT]
 > OverCloaked does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -977,6 +1152,18 @@ Fixed a security vulnerability.
 | | https://s3.amazonaws.com/elliotslinks-tnjavxyp/exam45879/index.html | 4/21/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
 | | https://s3.amazonaws.com/elliotslinks-tnjavxyp/essay71679/index.html | 4/21/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
 | | https://s3.amazonaws.com/elliotslinks-tnjavxyp/quiz10430/index.html | 4/21/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
+| | https://master.erp-masterclass.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://larp.erp-masterclass.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://technology.art.english.student.homework.tokeslaszlo.eu/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://campus.engineering.teacher.student.homework.gcs.net.nz/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://grammar.reading.lecture.engineering.drama.tokeslaszlo.eu/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://drama.engineering.teacher.art.library.rednutricional.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://project.programming.literature.drama.chemistry.sismonda.com.ar/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://calculus.classroom.computer.student.geography.rednutricional.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://grammar.homework.teacher.math.art.sismonda.com.ar/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://library.learning.english.vocabulary.computer.rednutricional.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://studying.student.english.grammar.math.rednutricional.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://programming.literature.homework.studying.algebra.sismonda.com.ar/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 😈 Imp Proxy
 > [!NOTE]
@@ -1118,7 +1305,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | Unknown | Scramjet | 96 |
+> | Proxy/Games | Unknown | Scramjet | 105 |
 
 > [!IMPORTANT]
 > Rosin does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -1221,6 +1408,15 @@ Fixed a security vulnerability.
 | | https://qmzkd.recepist.fi | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://runningatrap.recepist.fi | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://supereader.recepist.fi | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://copabag.bagos.ro | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://candy.unionvillelacrosse.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://tungtung.tongllfoundation.org | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://inthebank.valor.ar | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://choppahouse.acmys.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://eatcells.biocellerity.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://callgobrr.callcentercuritiba.com.br/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://indian.callcentercuritiba.com.br/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://brrrchopa.esdata.info/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # ⬡ TGLSC Density 4
 > [!NOTE]
@@ -1257,7 +1453,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | libcurl, epoxy, wisp | Scramjet, Ultraviolet | 70 |
+> | Proxy/Games | libcurl, epoxy, wisp | Scramjet, Ultraviolet | 83 |
 
 > [!IMPORTANT]
 > Galaxy does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -1334,6 +1530,19 @@ Fixed a security vulnerability.
 | | https://classroom.library.chemistry.learning.music.glenoriebakery.com.au | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://geography.seminar.campus.engineering.learning.easternstamps.com | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://moreinfo.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://doyourwork.dnswish.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://dfsdsfdsf.fppagos.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://dfsdfsdfsdfs.bryankrawetz.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://fdsdfs.elmirador360.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://galaxy.notariamelipilla.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | http://galaxy.notariamelipilla.cl/onboarding | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://doyourwork.dnswish.com/onboarding | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://iliketocode.dnswish.com/onboarding | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://dfsdsfdsf.fppagos.com/onboarding | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://jndfgijgfd.fppagos.com/onboarding | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://dfsdfsdfsdfs.bryankrawetz.com/onboarding | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://gffgdfgdfg.bryankrawetz.com/onboarding | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://fdsdfs.elmirador360.com/onboarding | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # ♈ Zodiac
 > [!NOTE]
@@ -1354,7 +1563,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | unknown | unknown | 25 |
+> | Proxy/Games | unknown | unknown | 35 |
 
 > [!IMPORTANT]
 > StudyHub does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -1386,12 +1595,22 @@ Fixed a security vulnerability.
 | | https://class.bamastuff.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://vcsa.babypos.hk | 5/4/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://vcsa-yt.lervs.ro | 5/1/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://studying.beltfrog.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://greater.cravat-club.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://cipher.renaca.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://great.renaca.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://pneducation.org/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://study.webinfo.tw/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://study.cazaresulina.ro/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://studying.klrmowse.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learning.lastarria43.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://smartbio.asturkiters.es/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🍓 Strawberry
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | unknown | unknown | 75 |
+> | Proxy/Games | unknown | unknown | 85 |
 
 > [!IMPORTANT]
 > Strawberry does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -1473,6 +1692,16 @@ Fixed a security vulnerability.
 | | https://smartbio.bamastuff.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://smartbio.reformarchive.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://strawberryistuff.recreatinganew.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
+| | https://mathew.notariamelipilla.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://school.notariamelipilla.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://strawberry.notariamelipilla.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://strawberryontop.renaca.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://strawberry.ldeazevedo.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://info.srivaishnavam.org.au | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://berry.webinfo.tw/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learning.colloky.com.pe/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ford.heidibranlund.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://cbguru.easternstamps.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🧱 Noblocc
 > [!NOTE]
@@ -1494,7 +1723,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | captcha | Scramjet | 35 |
+> | Proxy/Games | captcha | Scramjet | 37 |
 
 | Locked | Link | Found Date | Username | Password | Contributor |
 | - | - | - | - | - | - |
@@ -1533,6 +1762,8 @@ Fixed a security vulnerability.
 | | https://launch.umlach.org | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://app.cmyk-studio.com | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://zlty.europeserv.org | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | http://ipv6.bestar.sg/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | http://dns.dnda.com.np/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🖤 Void Network
 > [!NOTE]
@@ -1616,7 +1847,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | unknown | unknown | 28 |
+> | Proxy/Games | unknown | unknown | 47 |
 
 > [!IMPORTANT]
 > Utopia Education does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -1651,6 +1882,25 @@ Fixed a security vulnerability.
 | | https://educationlessons.crabdance.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://grade.recap.europeserv.org | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://know.tech.europeserv.org | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://trade.my.biblosconsulting.ru/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://totallynotsuspicious.at.all.biblosconsulting.ru/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://manhattan.mathematical.scientific.foundation.university.biblosconsulting.ru/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://my.great.great.grandfather.watches.jojobizzareadventure.minecraftnoob.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://educationnyu.spacetechnology.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://noahsproxy.smelly.cc | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://monroesmp.gianinifiestas.cl | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://liamkinch.rajendra-ghimire.com.np | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://tatata12345678910e2.chickenkiller.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://proxyyourmom.jumpingcrab.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://craft.piano.mycomputerstore.biz | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://proof.data.mmariano.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://logic.atom.alanrjr.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://state.tech.zotu.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://level.idea.garyshood.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://how.level.suvu.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://math.bio.lit.study.chocant.com.br/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://wize.the.line.bulls.colloky.com.pe/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://auto.detect.math.work.tanenbaumchat.org/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🌘 Lunaar
 > [!NOTE]
@@ -1672,7 +1922,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | captcha | Scramjet | 13 |
+> | Proxy/Games | captcha | Scramjet | 18 |
 
 | Locked | Link | Found Date | Username | Password | Contributor |
 | - | - | - | - | - | - |
@@ -1689,12 +1939,17 @@ Fixed a security vulnerability.
 | | https://lsrelay-l.s3.amazonaws.com/index.html | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://unpkg.com/browselucide@latest/logo.svg | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://cdn.jsdelivr.net/gh/coinbaselarper/svg@latest/logo.svg | 5/1/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://gawd.rcdx93.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://netanyahu.lervs.ro | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://code.bull.graphs.math.colloky.com.pe/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ninja.good.subscriber.eilong.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://bull.premises.quevo.com.br/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🔷 Celestial
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | libcurl, epoxy | Scramjet, Ultraviolet | 9 |
+> | Proxy/Games | libcurl, epoxy | Scramjet, Ultraviolet | 22 |
 
 > [!IMPORTANT]
 > Celestial does not have CAPTCHA support. Websites that require human verification (like YouTube) will not work or display properly.
@@ -1710,12 +1965,25 @@ Fixed a security vulnerability.
 | | https://easy.globaltutors.me | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://hours.stgenevieveschool.us | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://creditrepair911.us | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://task.babypos.hk/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://edu.jyotsnapandey.com.np/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://edu.numbercraftacademy.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://celestial.overlijdenscentrum.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://153.75.225.180.nip.io/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://153.75.225.180.sslip.io/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://task.globaltutors.me.cdn.cloudflare.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://help.ezlearning.qzz.io/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://creditrepair911.us/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://celestial-bib.duckdns.org/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://celestialbib.web.app/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://task.bdyoutube.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://celestial-22b59.kxcdn.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # ✨ Quasar
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | captcha | Scramjet | 6 |
+> | Proxy/Games | captcha | Scramjet | 21 |
 
 > [!IMPORTANT]
 > This section has not been categorized or checked for protocol(s) and capabilities.
@@ -1728,6 +1996,21 @@ Fixed a security vulnerability.
 | | https://cves359.com/ | 4/25/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
 | | https://kcomeacademy.org/ | 4/25/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
 | | https://schoolimprovementtips.com/ | 4/25/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
+| | https://quesadilla.valor.ar/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://api.notariamelipilla.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://napoleon-wiki.2to1agri.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://education.potomacriversafetycommittee.org/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://frosted.webinfo.tw/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://edu.bdyoutube.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://frosted.vixenlights.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://frosted.smacs.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://frosted.latine.ca/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://frosted.japan.is/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://info.alexanderthegreater.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://frosted.valor.ar/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://frosted.torontowestpsychotherapy.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://frosted.tongllfoundation.org/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://starr.bijayakilla.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🧀 Cheesy
 > [!NOTE]
@@ -2059,7 +2342,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | pending | pending | pending | 29 |
+> | pending | pending | pending | 32 |
 
 > [!IMPORTANT]
 > This section has not been categorized or checked for protocol(s) and capabilities.
@@ -2095,12 +2378,15 @@ Fixed a security vulnerability.
 | | https://inf93381.real3m.com | 5/1/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://inf85830.colloky.com.pe | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://computers.recepist.fi | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://studyguide.virtualmathnav.online | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://readingstudies.v6.rocks | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://inf69580.ecolefrancophone.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🌸 Cherri
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | pending | pending | pending | 19 |
+> | pending | pending | pending | 25 |
 
 > [!IMPORTANT]
 > This section has not been categorized or checked for protocol(s) and capabilities.
@@ -2126,6 +2412,12 @@ Fixed a security vulnerability.
 | | https://gocherry.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://ilovecheerys.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://isitcherryorcherri.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://cherri.totallyeducation.info/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://mathstudies.calculuslessons.lol | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://beearomi.klrmowse.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://cherribull.asturkiters.es/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://content.keeper.go.gaurd.ian.bvhoa.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://chem.cherri.beearomi.bull.tanenbaumchat.org/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 💙 LuminalOS
 > [!NOTE]
@@ -2141,7 +2433,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | unknown | unknown | 43 |
+> | Proxy/Games | unknown | unknown | 73 |
 
 | Locked | Link | Found Date | Username | Password | Contributor |
 | - | - | - | - | - | - |
@@ -2188,6 +2480,36 @@ Fixed a security vulnerability.
 | | https://unblockedgames.appwrite.network/ | 4/30/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
 | | https://gaming.appwrite.network/ | 4/30/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
 | | https://math-worksheets.appwrite.network/ | 4/30/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
+| | https://bloxcraft-ubg.freetls.fastly.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://optionally-outgoing-gull.freetls.fastly.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://bloxcraftubg.global.ssl.fastly.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://bloxcraftubg.freetls.fastly.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://unblocked-games.global.ssl.fastly.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://unblocked-games.freetls.fastly.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://9772.duckdns.org | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://flux-unblocker.duckdns.org | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://www.fluxunblocker.duckdns.org | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://www.manie-musicale.duckdns.org | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://maniemusicale.duckdns.org | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://bloxcraftubg.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://flux-unblocker.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://fluxunblocker.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://cc-ported.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ccparty.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://cc-party.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ccport.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ubg-games.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ubggames.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://unblockings.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://bloxcraft.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://tharun9772.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://fahrun.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://scarmjet.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://9772.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ubg-tuff.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ubgtuff.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://unstable-smp.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://tharun9772gaming.vercel.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # Luminal
 > [!NOTE]
@@ -2206,7 +2528,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | captcha | unknown | 20 |
+> | Proxy/Games | captcha | unknown | 25 |
 
 | Locked | Link | Found Date | Username | Password | Contributor |
 | - | - | - | - | - | - |
@@ -2230,12 +2552,17 @@ Fixed a security vulnerability.
 | | https://products.codeshs.org | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://teachme.codeshs.org | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://codeshs.org | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://calculatemath.org | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learn.learnassignmentsmath.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://asknmefgd.panel-laboralcj.gob.mx | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://did-youknow-that-vacmadethislink.lol.rednutricional.cl | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://bomboclat-wallahi.urpalestinian.tokeslaszlo.eu | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 🗝️ 1Key
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | unknown | unknown | 18 |
+> | Proxy/Games | unknown | unknown | 25 |
 
 | Locked | Link | Found Date | Username | Password | Contributor |
 | - | - | - | - | - | - |
@@ -2257,6 +2584,13 @@ Fixed a security vulnerability.
 | | https://knowledge-flow.maverickden.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://focus-system.ncknms.com | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://study-performance.wayner.ca | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
+| | https://think-learn-improve.bo-kite.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://plan-focus-succeed.carcano.me | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://study-hard-smart.derekcturner.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learn-build-grow.findelschnecke.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://focus-train-achieve.horizonpublishingllc.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | http://metalv2.metallicstream.pro/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | http://metal.metallicstream.pro/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # Suntree
 > [!NOTE]
@@ -2275,7 +2609,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | pending | pending | pending | 7 |
+> | pending | pending | pending | 11 |
 
 > [!IMPORTANT]
 > This section has not been categorized or checked for protocol(s) and capabilities.
@@ -2289,6 +2623,10 @@ Fixed a security vulnerability.
 | | https://donuts.muffins.glenoriebakery.com.au | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://matthewtuah.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://geography.science.studying.campus.chemistry.coosemansla.com | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://assets.editor.p5js.org/69f62565e047d647146aca73/52736a96-8273-4625-ae9a-1d27321076a4.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://script.google.com/macros/s/AKfycbz_3CKzRKXyisc_WYcOIG6adYY2QUTS13-jO0XA70aPzmiNz23XNHGaU9LYBgRs8iZq/exec?url=https://originfastly.jsdelivr.net/gh/NoahsAmazingTutoringHelp/reimagined-octo-winner@main/blahblahblah.html | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ixllearning-bengali89.web.app | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ixllearning-bengali89.firebaseapp.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # Nexora
 > [!NOTE]
@@ -2748,11 +3086,12 @@ Fixed a security vulnerability.
 | | https://lightscameraaction.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://splassh.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
-# 📚 Only lessons
+# OnlyLessons
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | pending | pending | pending | 2 |
+> | pending | pending | pending | 9 |
+
 > [!IMPORTANT]
 > This section has not been categorized or checked for protocol(s) and capabilities.
 
@@ -2760,6 +3099,13 @@ Fixed a security vulnerability.
 | - | - | - | - | - | - |
 | | https://gabrielultrakill.bestar.sg | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
 | | https://suntree.alex.rf.gd | 5/2/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)|
+| | https://focus-and-learn.2gfkitchen.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://study-smart-daily.bigheadpromo.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://revise-and-succeed.sage.li/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learn-practice-grow.shirokuriwaki.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://plan-study-repeat.solarorbit.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://ixlpapi.logyca.com.mx | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://education.math.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 5️⃣ 55gms
 > [!NOTE]
@@ -2815,7 +3161,7 @@ Fixed a security vulnerability.
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
 > | - | - | - | - |
-> | Proxy/Games | unknown | unknown | 15 |
+> | Proxy/Games | unknown | unknown | 43 |
 
 | Locked | Link | Found Date | Username | Password | Contributor |
 | - | - | - | - | - | - |
@@ -2834,6 +3180,34 @@ Fixed a security vulnerability.
 | | https://vcsa.easternstamps.com | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://xylora.searching.dirtchicvt.com | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://xylora.rust.rusticrivergear.com | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.on.top.overlijdenscentrum.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://repeating.xylora.webinfo.tw/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.read.about.willy.cat/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.research.about.dogs.valor.ar/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xy.lora.grahammurryinsuranceagency.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://days.delia-derbyshire.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://resting.cazaresulina.ro/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://fishes.colloky.com.pe/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://testing.notariamelipilla.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://exam.grahammurryinsuranceagency.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.math.science.heidibranlund.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.rust.rusticrivergear.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.testout.repuestoslibertad.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.countertops.kwgranitecountertops.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.searching.dirtchicvt.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://light.cops.klrmowse.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://briaisahotmess.lastarria43.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.asturkiters.es/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.elymbmx.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.alalalal.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.rodzinnawiez.pl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.ucdcanoeclub.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.pilith.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.nurah.com.my/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.sudandulal.com.np/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.camaradellibro.cl/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.makeupbuzz.co.uk/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://xylora.k0a1a.net/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # 👟 Nikehub
 > [!NOTE]
@@ -2865,17 +3239,6 @@ Fixed a security vulnerability.
 | - | - | - | - | - | - |
 | | https://poki-boyy.firebaseapp.com/browser.html | 4/21/2026 | N/A | N/A | [yourworstnightmare1](https://github.com/yourworstnightmare1)
 
-# OnlyLessons
-> [!NOTE]
-> | Category | Capabilities | Protocol(s) | Links |
-> | - | - | - | - |
-> | Proxy/Games | unknown | unknown | 2 |
-
-| Locked | Link | Found Date | Username | Password | Contributor |
-| - | - | - | - | - | - |
-| | https://ixlpapi.logyca.com.mx | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
-| | https://education.math.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
-
 # Chicken Kings Vault
 > [!NOTE]
 > | Category | Capabilities | Protocol(s) | Links |
@@ -2890,6 +3253,91 @@ Fixed a security vulnerability.
 | | https://ilovechiken.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://rrreally.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 | | https://supermathwork.wikidelia.net | 5/6/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+
+# Zen
+> [!NOTE]
+> | Category | Capabilities | Protocol(s) | Links |
+> | - | - | - | - |
+> | pending | pending | pending | 1 |
+
+> [!IMPORTANT]
+> This section has not been categorized or checked for protocol(s) and capabilities.
+
+| Locked | Link | Found Date | Username | Password | Contributor |
+| - | - | - | - | - | - |
+| | https://zennedu.github.io/math | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+
+
+# Freedom
+> [!NOTE]
+> | Category | Capabilities | Protocol(s) | Links |
+> | - | - | - | - |
+> | pending | pending | pending | 5 |
+
+> [!IMPORTANT]
+> This section has not been categorized or checked for protocol(s) and capabilities.
+
+| Locked | Link | Found Date | Username | Password | Contributor |
+| - | - | - | - | - | - |
+| | https://focus-engine.bizis.si/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://memory-builder.connorliam.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://exam-mastery.damanpost.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://study-momentum.shredstreet.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://learning-edge.viewlogix.com/ | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+
+
+# RammerHead
+> [!NOTE]
+> | Category | Capabilities | Protocol(s) | Links |
+> | - | - | - | - |
+> | pending | pending | pending | 9 |
+
+> [!IMPORTANT]
+> This section has not been categorized or checked for protocol(s) and capabilities.
+
+| Locked | Link | Found Date | Username | Password | Contributor |
+| - | - | - | - | - | - |
+| | https://rammer.nana.d-a-n.net | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://rammer.nana.nealtacular.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://rammer.nana.pccentro.ar | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://bananabread.thepresenttraveller.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://1738geio9493.surfnet.ca | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://nuclear-rubber-ducky-ventriloquism.pubradius.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://classroom.pubradius.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://epsteins-left-ball.pubradius.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://goldennectar.pubradius.com | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+
+
+# Flamed Lite
+> [!NOTE]
+> | Category | Capabilities | Protocol(s) | Links |
+> | - | - | - | - |
+> | pending | pending | pending | 3 |
+
+> [!IMPORTANT]
+> This section has not been categorized or checked for protocol(s) and capabilities.
+
+| Locked | Link | Found Date | Username | Password | Contributor |
+| - | - | - | - | - | - |
+| | https://cdn.jsdelivr.net/gh/Flamed-Games/Flamed-Lite@main/index.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://fastly.jsdelivr.net/gh/Flamed-Games/Flamed-Lite@main/index.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://quantil.jsdelivr.net/gh/Flamed-Games/Flamed-Lite@main/index.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+
+
+# Hamcraft
+> [!NOTE]
+> | Category | Capabilities | Protocol(s) | Links |
+> | - | - | - | - |
+> | pending | pending | pending | 3 |
+
+> [!IMPORTANT]
+> This section has not been categorized or checked for protocol(s) and capabilities.
+
+| Locked | Link | Found Date | Username | Password | Contributor |
+| - | - | - | - | - | - |
+| | https://fastly.jsdelivr.net/gh/HamCraft-UB/Singlefile@main/index.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://gcore.jsdelivr.net/gh/HamCraft-UB/Singlefile@main/index.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
+| | https://quantil.jsdelivr.net/gh/HamCraft-UB/Singlefile@main/index.svg | 5/9/2026 | N/A | N/A | [1NobleCyber](https://github.com/1NobleCyber)
 
 # Zyron
 > [!NOTE]
