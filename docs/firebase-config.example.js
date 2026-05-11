@@ -1,8 +1,8 @@
 /* Shipped with the site (e.g. GitHub Pages). index.html loads this first, then
-   firebase-config.local.js (gitignored) to override when present.
+   firebase-config.local.js (committed stub on Pages; you may edit locally for overrides).
 
-   For local-only Firestore, copy this file to firebase-config.local.js and edit there
-   so secret scanning / commits stay cleaner; production can rely on this file alone.
+   For local-only experiments, edit firebase-config.local.js in your clone (do not commit
+   private keys). Production deploy uses the stub plus this example file.
 
    Leave apiKey empty for browser-only click counts (localStorage).
 

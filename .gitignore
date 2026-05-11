@@ -2,5 +2,4 @@
 .DS_Store
 __pycache__/
 node_modules/
-docs/firebase-config.local.js
 secrets

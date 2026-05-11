@@ -659,6 +659,68 @@
       outline-offset: 1px;
     }
 
+    /* New deploy / list update — sticky below orientation overlay; below modal backdrop (30) */
+    .site-update-banner {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 28;
+      padding: 0.55rem 1rem;
+      background: linear-gradient(180deg, #1e3a5f 0%, #162a45 100%);
+      border-bottom: 1px solid #2d5588;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+    }
+    body.has-site-update-banner .site-update-banner {
+      display: block;
+    }
+    .site-update-banner-inner {
+      max-width: min(1100px, 100%);
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.55rem 0.85rem;
+    }
+    .site-update-banner-text {
+      font-size: 0.88rem;
+      color: var(--text);
+      text-align: center;
+      line-height: 1.35;
+    }
+    .site-update-banner-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      flex-shrink: 0;
+    }
+    .site-update-banner .btn-primary {
+      background: #2d5588;
+      border-color: #4a7ab8;
+      color: #dbeafe;
+    }
+    .site-update-banner .btn-primary:hover {
+      background: #35619c;
+      color: #fff;
+    }
+    #siteUpdateDismissBtn {
+      padding: 0.35rem 0.55rem;
+      min-width: auto;
+      line-height: 1;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+    body.has-site-update-banner header {
+      margin-top: 2.85rem;
+    }
+    @media (max-width: 520px) {
+      body.has-site-update-banner header {
+        margin-top: 3.25rem;
+      }
+    }
+
     .orientation-warning {
       display: none;
       position: fixed;
@@ -712,6 +774,16 @@
   </style>
 </head>
 <body class="orientation-locked">
+  <div id="siteUpdateBanner" class="site-update-banner" role="region" aria-label="Site update available" hidden>
+    <div class="site-update-banner-inner">
+      <span class="site-update-banner-text" id="siteUpdateBannerText"
+        >A new site update is available. Refresh to load the latest list and scripts.</span>
+      <div class="site-update-banner-actions">
+        <button type="button" class="btn btn-primary" id="siteUpdateRefreshBtn">Refresh</button>
+        <button type="button" class="btn" id="siteUpdateDismissBtn" aria-label="Dismiss update notice">×</button>
+      </div>
+    </div>
+  </div>
   <div class="orientation-warning" role="alertdialog" aria-labelledby="orientationTitle">
     <svg class="orientation-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 106.43" aria-hidden="true" focusable="false">
       <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M11.1,0h35.63c3.05,0,5.85,1.25,7.85,3.25c2.03,2.03,3.25,4.8,3.25,7.85v31.46h-3.19V12.18H3.15v75.26l0,0h7.61v11.61c0,1.58,0.27,3.1,0.77,4.51H11.1c-3.05,0-5.85-1.25-7.85-3.25C1.22,98.27,0,95.51,0,92.45V11.1c0-3.05,1.25-5.85,3.25-7.85C5.28,1.22,8.04,0,11.1,0L11.1,0L11.1,0z M94.95,33.45c-0.37-5.8-2.64-10.56-6.06-13.97c-3.64-3.63-8.59-5.74-13.94-5.93l2.46,2.95c0.73,0.88,0.62,2.18-0.26,2.91c-0.88,0.73-2.18,0.62-2.91-0.26l-5.72-6.85l0,0c-0.72-0.86-0.62-2.14,0.22-2.88l6.71-5.89c0.86-0.75,2.16-0.66,2.91,0.19c0.75,0.86,0.66,2.16-0.19,2.91l-3.16,2.78c6.43,0.21,12.4,2.75,16.8,7.13c4.07,4.06,6.79,9.69,7.25,16.49l2.58-3.08c0.73-0.88,2.04-0.99,2.91-0.26c0.88,0.73,0.99,2.04,0.26,2.91l-5.73,6.84c-0.72,0.86-1.99,0.99-2.87,0.29l-6.98-5.56c-0.89-0.71-1.04-2.01-0.33-2.91c0.71-0.89,2.01-1.04,2.91-0.33L94.95,33.45L94.95,33.45z M122.88,59.7v35.63c0,3.05-1.25,5.85-3.25,7.85c-2.03,2.03-4.8,3.25-7.85,3.25h-78.9c-3.05,0-5.85-1.25-7.85-3.25c-2.03-2.03-3.25-4.8-3.25-7.85V59.7c0-3.05,1.25-5.85,3.25-7.85c2.03-2.03,4.79-3.25,7.85-3.25h78.9c3.05,0,5.85,1.25,7.85,3.25C121.66,53.88,122.88,56.64,122.88,59.7L122.88,59.7L122.88,59.7z M35.41,77.49c0,2.51-2.03,4.57-4.57,4.57c-2.51,0-4.57-2.03-4.57-4.57c0-2.51,2.03-4.57,4.57-4.57C33.36,72.92,35.41,74.95,35.41,77.49L35.41,77.49L35.41,77.49z M37.88,51.75v51.49h72.82V51.75H37.88L37.88,51.75z"/>
@@ -1086,6 +1158,10 @@
           firebase.initializeApp(cfg);
         }
         firebaseDb = firebase.firestore();
+        /* Safari / WebKit: default WebChannel long-poll can fail with “access control checks” on Listen/channel. */
+        try {
+          firebaseDb.settings({ experimentalAutoDetectLongPolling: true });
+        } catch (_) {}
         return firebase
           .auth()
           .signInAnonymously()
@@ -2449,9 +2525,83 @@
     }
 
     const UPDATE_SEEN_KEY = "proxylist:last-seen-version";
+    const BANNER_DISMISS_SESSION_KEY = "proxylist:banner-dismiss-stamp";
 
     function versionOnly(meta) {
       return ((meta && meta.version) || "").trim();
+    }
+
+    /** Version + revision + date — detects list/deploy updates even when version string stays the same. */
+    function versionStamp(meta) {
+      const v = ((meta && meta.version) || "").trim();
+      const r = ((meta && meta.revision) || "").trim();
+      const d = ((meta && meta.last_updated) || "").trim();
+      if (!v && !r && !d) return "";
+      return [v, r, d].join("|");
+    }
+
+    function humanStamp(stamp) {
+      if (!stamp) return "";
+      const parts = stamp.split("|");
+      const v = parts[0] || "";
+      const r = parts[1] || "";
+      if (v && r) return v + " · " + r;
+      return v || stamp;
+    }
+
+    /** Cache-bypass reload similar to Cmd+Shift+R (forces browsers to fetch a fresh document URL). */
+    function hardReloadBypassCache() {
+      try {
+        const u = new URL(window.location.href);
+        u.searchParams.set("_plcb", String(Date.now()));
+        window.location.replace(u.toString());
+      } catch (_) {
+        window.location.reload();
+      }
+    }
+
+    function setSiteUpdateBannerVisible(visible) {
+      const el = $("siteUpdateBanner");
+      if (!el) return;
+      if (visible) {
+        el.hidden = false;
+        document.body.classList.add("has-site-update-banner");
+      } else {
+        el.hidden = true;
+        document.body.classList.remove("has-site-update-banner");
+      }
+    }
+
+    function maybeShowSiteUpdateBanner(meta) {
+      const stamp = versionStamp(meta);
+      const stored = readSeenVersion();
+      const textEl = $("siteUpdateBannerText");
+      if (textEl && stamp) {
+        textEl.textContent =
+          "A new site update is available (" + humanStamp(stamp) + "). Refresh to load the latest list and scripts.";
+      }
+      if (!stamp) {
+        setSiteUpdateBannerVisible(false);
+        return;
+      }
+      if (stored === null || stored === stamp) {
+        setSiteUpdateBannerVisible(false);
+        return;
+      }
+      try {
+        if (sessionStorage.getItem(BANNER_DISMISS_SESSION_KEY) === stamp) {
+          setSiteUpdateBannerVisible(false);
+          return;
+        }
+      } catch (_) {}
+      try {
+        console.info(
+          "[Proxy List] New site update available (" +
+            humanStamp(stamp) +
+            "). Refresh (banner or cache-bypass reload) to load the latest list and scripts."
+        );
+      } catch (_) {}
+      setSiteUpdateBannerVisible(true);
     }
 
     function readSeenVersion() {
@@ -2475,11 +2625,16 @@
       const introEl = $("updateIntro");
       const bodyEl = $("updateNoticesBody");
       const current = versionOnly(meta) || "the latest version";
+      const curStamp = versionStamp(meta);
       if (titleEl) titleEl.textContent = "What's new in " + current;
       if (introEl) {
-        if (fromVersion && fromVersion !== current) {
+        if (fromVersion && fromVersion !== curStamp) {
           introEl.textContent =
-            "The proxy list was updated from " + fromVersion + " to " + current + ".";
+            "The proxy list was updated from " +
+            humanStamp(fromVersion) +
+            " to " +
+            humanStamp(curStamp) +
+            ".";
         } else {
           introEl.textContent = "Currently on " + current + ".";
         }
@@ -2498,19 +2653,20 @@
     }
 
     function closeUpdateModal(meta) {
-      const current = versionOnly(meta);
-      if (current) writeSeenVersion(current);
+      const stamp = versionStamp(meta);
+      if (stamp) writeSeenVersion(stamp);
       $("updateBackdrop").classList.remove("open");
       $("updateBackdrop").setAttribute("aria-hidden", "true");
+      setSiteUpdateBannerVisible(false);
     }
 
     function maybeShowUpdateModal(meta) {
-      const current = versionOnly(meta);
+      const current = versionStamp(meta);
       if (!current) return;
       const stored = readSeenVersion();
       if (stored === current) return;
       if (stored === null) {
-        // First-time visitor: silently mark current version so the modal only auto-triggers on real updates.
+        // First-time visitor: silently mark current stamp so the modal only auto-triggers on real updates.
         writeSeenVersion(current);
         return;
       }
@@ -2647,6 +2803,14 @@
         if (moSortSel) moSortSel.value = getMostOpenedSortMode();
         void renderMostOpenedForList(links);
         maybeShowUpdateModal(meta);
+        maybeShowSiteUpdateBanner(meta);
+        try {
+          const u = new URL(window.location.href);
+          if (u.searchParams.has("_plcb")) {
+            u.searchParams.delete("_plcb");
+            history.replaceState({}, "", u.pathname + u.search + u.hash);
+          }
+        } catch (_) {}
         buildCheckboxGroup(
           "providerTags",
           uniq(links.map((d) => d.provider)),
@@ -2810,6 +2974,24 @@
         $("updateCloseBtn").addEventListener("click", () => closeUpdateModal(meta));
         $("updateGotItBtn").addEventListener("click", () => closeUpdateModal(meta));
         $("updateNoticeBtn").addEventListener("click", () => openUpdateModal(meta, readSeenVersion()));
+        const siteUpdateRefreshBtn = $("siteUpdateRefreshBtn");
+        if (siteUpdateRefreshBtn) {
+          siteUpdateRefreshBtn.addEventListener("click", () => {
+            const m = pageContext && pageContext.meta;
+            if (m) writeSeenVersion(versionStamp(m));
+            hardReloadBypassCache();
+          });
+        }
+        const siteUpdateDismissBtn = $("siteUpdateDismissBtn");
+        if (siteUpdateDismissBtn) {
+          siteUpdateDismissBtn.addEventListener("click", () => {
+            try {
+              const m = pageContext && pageContext.meta;
+              if (m) sessionStorage.setItem(BANNER_DISMISS_SESSION_KEY, versionStamp(m));
+            } catch (_) {}
+            setSiteUpdateBannerVisible(false);
+          });
+        }
         $("backToTopBtn").addEventListener("click", () => {
           window.scrollTo({ top: 0, behavior: "smooth" });
         });
