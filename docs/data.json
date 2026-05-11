@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "v4.3.1",
-    "revision": "r83",
+    "revision": "r84",
     "last_updated": "May 11, 2026",
     "unsorted_total": 1967,
     "important_notices": "### Selenite\nThe owner has announced that Selenite is here to stay! The changes made to those links have been reverted and there is currently no plans to remove or change them. Enjoy!",
@@ -148,55 +148,80 @@
     ]
   },
   "link_check": {
-    "checked_at": "2026-05-11T02:38:21Z",
-    "checked_at_display": "2026-05-11 02:38 UTC",
+    "checked_at": "2026-05-11T06:18:09Z",
+    "checked_at_display": "2026-05-11 06:18 UTC",
     "added_count": 0,
-    "removed_count": 10,
+    "removed_count": 7,
     "added_links": [],
     "removed_links": [
-      "https://veleranirbytes.fusionid.fi",
-      "https://securelyplsspeedineedthis8weudidhske.suwal.com.np",
-      "https://quick-learning.gorich.hk",
-      "https://svp.reformarchive.com",
-      "https://math.rcdx93.net",
-      "https://science.weatherpixel.com",
-      "https://awxkcn.glyphosateinfood.com",
-      "https://stopsign8.adventurersalmanac.com",
-      "https://stopsign8.enjoywalensee.ch",
-      "https://truemath.pandeybikalpa.com.np"
+      "https://1259pm.kaskjer.org",
+      "https://mathematics.lervs.ro",
+      "https://lol.greenbaynz.com",
+      "https://lightspeedsotuff.recepist.fi",
+      "https://educationalyoutube.com",
+      "https://zoobuckz.com",
+      "https://dashboard.wobwob.duckdns.org"
     ]
   },
   "failing_links": {
-    "https://vorg-has.me-at-gun-point3.cyberninja.ie": 1,
-    "https://vorg-isnt-a-fem.boy3.cyberninja.ie": 2,
-    "https://learning-science.cloudfare.teimporto.cl": 1,
-    "https://evenmore.delafuentefunerales.cl": 1,
-    "https://51.222.206.184.nar0.com": 1,
-    "https://learnaboutbillclinton.bisblick.org": 1,
-    "https://wyattrules.aber.ir": 1,
-    "https://rchbr.fritsche.org": 1,
-    "https://ktxcfvocsm.meshtastic.hu": 1,
-    "https://mathematics.lervs.ro": 2,
-    "https://pythagoras.academinctools.pw": 1,
-    "https://1259pm.kaskjer.org": 2,
-    "https://hvtzw.reformarchive.com": 2,
-    "https://lol.greenbaynz.com": 2,
-    "https://bloxians.appwrite.network": 1,
-    "https://blox.appwrite.network": 1,
-    "https://bloxy.appwrite.network": 1,
-    "https://unblocked-games.appwrite.network": 1,
-    "https://unblockedgames.appwrite.network": 1,
-    "https://gaming.appwrite.network": 1,
-    "https://math-worksheets.appwrite.network": 1,
-    "https://dashboard.wobwob.duckdns.org": 2,
-    "https://lightspeedsotuff.recepist.fi": 2,
-    "https://educationalyoutube.com": 2,
-    "https://zoobuckz.com": 2,
-    "https://jjju.lastarria43.cl": 1,
-    "https://beearomi.asturkiters.es": 1,
-    "https://sail.with.educated.bulls.poloniacruz.com": 1,
-    "https://bulls.eat.grass.klrmowse.com": 1,
-    "https://monroesmp.gianinifiestas.cl": 1
+    "https://vorg-has.me-at-gun-point3.cyberninja.ie": 2,
+    "https://files.copytek.cl": 1,
+    "https://app.codewave.com.np": 1,
+    "https://learn.morso-si.dk": 1,
+    "https://act.savequeechylake.org": 1,
+    "https://download.s-engine.com": 1,
+    "https://documentation.7btech.com": 1,
+    "https://learn.botsev.eu": 1,
+    "https://hosting.biec.com.np": 1,
+    "https://storytime.goodguysav.com": 1,
+    "https://read.nationalit.ru": 1,
+    "https://family.nembahadurraskoti.com.np": 1,
+    "https://status.xcloud.ar": 1,
+    "https://travel.national-birdshow.com": 1,
+    "https://k12edu.duckdns.org": 1,
+    "https://bllymartw.lekhnathfb.com.np": 1,
+    "https://compontop.jayaho.ch": 1,
+    "https://sunsett.cc.cdn.cloudflare.net": 1,
+    "https://51.222.206.184.nar0.com": 2,
+    "https://learnaboutbillclinton.daybits.net": 1,
+    "https://us.grumpyoldmen.us": 1,
+    "https://wiki.wikidelia.net": 1,
+    "https://blog.succeed.cl": 1,
+    "https://family.jessicacadotte.com": 1,
+    "https://purchase.halftech.com": 1,
+    "https://dev.cyber-ag.com": 1,
+    "https://recipies.dalicias.cl": 1,
+    "https://null-code.codewave.com.np": 1,
+    "https://dev.apa89.com": 1,
+    "https://updownyt.ytconverter.it": 1,
+    "https://cdn.adworldlog.com": 1,
+    "https://rchbr.fritsche.org": 2,
+    "https://ktxcfvocsm.meshtastic.hu": 2,
+    "https://pythagoras.academinctools.pw": 2,
+    "https://velara.cc": 1,
+    "https://learn.sharptutor.net": 1,
+    "https://dev.amq.li": 1,
+    "https://gitlab.amq.ro": 1,
+    "https://bloxians.appwrite.network": 2,
+    "https://blox.appwrite.network": 2,
+    "https://bloxy.appwrite.network": 2,
+    "https://unblocked-games.appwrite.network": 2,
+    "https://unblockedgames.appwrite.network": 2,
+    "https://gaming.appwrite.network": 2,
+    "https://math-worksheets.appwrite.network": 2,
+    "https://hydration.zwanenwater48.nl": 1,
+    "https://launch.umlach.org": 1,
+    "https://app.cmyk-studio.com": 1,
+    "https://zlty.europeserv.org": 1,
+    "https://stopsign8.adrian-hofer.at": 1,
+    "https://mome.bylooma.com": 1,
+    "https://ztt.networkindia.com": 1,
+    "https://beearomi.asturkiters.es": 2,
+    "https://sail.with.educated.bulls.poloniacruz.com": 2,
+    "http://breads.clothing.womenclothingtoday.com": 1,
+    "http://ipv6.bestar.sg": 1,
+    "http://dns.dnda.com.np": 1,
+    "https://monroesmp.gianinifiestas.cl": 2
   },
   "links": [
     {
@@ -693,25 +718,6 @@
         "scramjet"
       ],
       "locked": "",
-      "link": "https://1259pm.kaskjer.org/",
-      "found": "4/30/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
       "link": "https://rchbr.fritsche.org",
       "found": "5/1/2026",
       "username": "N/A",
@@ -732,25 +738,6 @@
       ],
       "locked": "",
       "link": "https://ktxcfvocsm.meshtastic.hu",
-      "found": "5/1/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "1NobleCyber",
-      "contributor_url": "https://github.com/1NobleCyber"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://mathematics.lervs.ro",
       "found": "5/1/2026",
       "username": "N/A",
       "password": "N/A",
@@ -794,82 +781,6 @@
       "password": "N/A",
       "contributor": "yourworstnightmare1",
       "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://lol.greenbaynz.com",
-      "found": "5/2/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://lightspeedsotuff.recepist.fi",
-      "found": "5/6/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "1NobleCyber",
-      "contributor_url": "https://github.com/1NobleCyber"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://educationalyoutube.com/",
-      "found": "5/9/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "1NobleCyber",
-      "contributor_url": "https://github.com/1NobleCyber"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://zoobuckz.com/",
-      "found": "5/9/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "1NobleCyber",
-      "contributor_url": "https://github.com/1NobleCyber"
     },
     {
       "provider": "🌙 Velara",
@@ -38596,25 +38507,6 @@
       ],
       "locked": "",
       "link": "https://m.wobwob.duckdns.org",
-      "found": "5/2/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "🌀 Interstellar",
-      "category": "pending",
-      "capabilities": "pending",
-      "capability_tags": [
-        "pending"
-      ],
-      "protocols": "pending",
-      "protocol_tags": [
-        "pending"
-      ],
-      "locked": "",
-      "link": "https://dashboard.wobwob.duckdns.org",
       "found": "5/2/2026",
       "username": "N/A",
       "password": "N/A",
