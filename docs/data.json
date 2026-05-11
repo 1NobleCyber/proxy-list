@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "v4.3.1",
-    "revision": "r85",
+    "revision": "r86",
     "last_updated": "May 11, 2026",
     "unsorted_total": 1967,
     "important_notices": "### Selenite\nThe owner has announced that Selenite is here to stay! The changes made to those links have been reverted and there is currently no plans to remove or change them. Enjoy!",
@@ -148,41 +148,32 @@
     ]
   },
   "link_check": {
-    "checked_at": "2026-05-11T09:31:41Z",
-    "checked_at_display": "2026-05-11 09:31 UTC",
+    "checked_at": "2026-05-11T14:37:31Z",
+    "checked_at_display": "2026-05-11 14:37 UTC",
     "added_count": 0,
-    "removed_count": 13,
+    "removed_count": 3,
     "added_links": [],
     "removed_links": [
-      "https://rchbr.fritsche.org",
-      "https://ktxcfvocsm.meshtastic.hu",
-      "https://beearomi.asturkiters.es",
-      "https://51.222.206.184.nar0.com",
-      "https://monroesmp.gianinifiestas.cl",
-      "https://bloxians.appwrite.network",
-      "https://blox.appwrite.network",
-      "https://bloxy.appwrite.network",
-      "https://unblocked-games.appwrite.network",
-      "https://unblockedgames.appwrite.network",
-      "https://gaming.appwrite.network",
-      "https://math-worksheets.appwrite.network",
-      "https://pythagoras.academinctools.pw"
+      "https://sunsett.cc.cdn.cloudflare.net",
+      "https://ztt.networkindia.com",
+      "http://breads.clothing.womenclothingtoday.com"
     ]
   },
   "failing_links": {
-    "https://vorg-isnt-a-fem.boy3.cyberninja.ie": 1,
-    "https://aphistorytutoring.tjarba.com": 1,
-    "https://sunsett.cc.cdn.cloudflare.net": 2,
-    "https://imsovainthatinamelinksaftermyself.tjarba.com": 1,
-    "https://testifies.birds.com.chickenkiller.com": 1,
-    "https://laweducation.clipfaktory.com": 1,
-    "https://sunsett.cc": 1,
-    "https://mome.bylooma.com": 2,
-    "https://jjju.lastarria43.cl": 1,
-    "https://onybj.adm62.ru": 1,
-    "https://ztt.networkindia.com": 2,
-    "https://bulls.eat.grass.klrmowse.com": 1,
-    "http://breads.clothing.womenclothingtoday.com": 2
+    "https://vorg-has.me-at-gun-point3.cyberninja.ie": 1,
+    "https://novacs.letiatours.com": 1,
+    "https://virtualgeo.letiatours.com": 1,
+    "https://evenmore.delafuentefunerales.cl": 1,
+    "https://testifies.birds.com.chickenkiller.com": 2,
+    "https://laweducation.clipfaktory.com": 2,
+    "https://technology.student.geography.chemistry.drama.colloky.com.pe": 1,
+    "https://bbrq.consulting-octopus.co.uk": 1,
+    "https://jjju.lastarria43.cl": 2,
+    "https://onybj.adm62.ru": 2,
+    "https://sail.with.educated.bulls.poloniacruz.com": 1,
+    "https://bulls.eat.grass.klrmowse.com": 2,
+    "https://hello-bog-pls-fix-about-blank-thanks.sisfirewall.com.br": 1,
+    "https://ebutter.chickenkiller.com": 1
   },
   "links": [
     {
@@ -584,25 +575,6 @@
         "scramjet"
       ],
       "locked": "",
-      "link": "https://sunsett.cc.cdn.cloudflare.net/",
-      "found": "4/26/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "yourworstnightmare1",
-      "contributor_url": "https://github.com/yourworstnightmare1"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
       "link": "https://baconatorsmath.2nx.org/",
       "found": "4/26/2026",
       "username": "N/A",
@@ -794,25 +766,6 @@
       ],
       "locked": "",
       "link": "https://onybj.adm62.ru",
-      "found": "5/9/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "1NobleCyber",
-      "contributor_url": "https://github.com/1NobleCyber"
-    },
-    {
-      "provider": "🌙 Velara",
-      "category": "Proxy/Games",
-      "capabilities": "captcha",
-      "capability_tags": [
-        "captcha"
-      ],
-      "protocols": "Scramjet",
-      "protocol_tags": [
-        "scramjet"
-      ],
-      "locked": "",
-      "link": "https://ztt.networkindia.com",
       "found": "5/9/2026",
       "username": "N/A",
       "password": "N/A",
@@ -1545,21 +1498,6 @@
       "protocol_tags": [],
       "locked": "",
       "link": "https://www.sololearn.com/en/compiler-playground/W6oaP0W77da1",
-      "found": "5/9/2026",
-      "username": "N/A",
-      "password": "N/A",
-      "contributor": "1NobleCyber",
-      "contributor_url": "https://github.com/1NobleCyber"
-    },
-    {
-      "provider": "➗ gn-math",
-      "category": "Games",
-      "capabilities": "N/A",
-      "capability_tags": [],
-      "protocols": "N/A",
-      "protocol_tags": [],
-      "locked": "",
-      "link": "http://breads.clothing.womenclothingtoday.com/",
       "found": "5/9/2026",
       "username": "N/A",
       "password": "N/A",
