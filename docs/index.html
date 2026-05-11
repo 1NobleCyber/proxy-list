@@ -4,7 +4,11 @@
   <meta charset="utf-8" />
   <!-- AdSense: use site URL https://yourworstnightmare1.github.io/proxy-list/ so ads.txt resolves at …/proxy-list/ads.txt -->
   <meta name="google-adsense-account" content="ca-pub-8449488085448128" />
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8449488085448128" crossorigin="anonymous"></script>
+  <script
+    async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8449488085448128"
+    crossorigin="anonymous"
+  ></script>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Proxy list</title>
   <link rel="icon" type="image/png" href="favicon.png" />
@@ -103,7 +107,7 @@
     @media (max-width: 840px) {
       aside { border-right: none; border-bottom: 1px solid var(--border); }
     }
-    /* Bottom_01 — leaderboard 728×90 above site footer */
+    /* Bottom_01 — responsive display ad above site footer */
     .page-bottom-ad {
       border-top: 1px solid var(--border);
       padding: 1.25rem 1rem 1.5rem;
@@ -111,16 +115,13 @@
       text-align: center;
     }
     .page-bottom-ad-inner {
-      max-width: 728px;
+      max-width: min(1100px, 100%);
       width: 100%;
       margin: 0 auto;
     }
     .page-bottom-ad-inner ins.adsbygoogle {
-      display: inline-block;
-      width: 728px;
-      max-width: 100%;
-      height: 90px;
-      vertical-align: top;
+      display: block;
+      width: 100%;
     }
     .page-bottom-ad-placeholder {
       margin: 0;
@@ -884,14 +885,19 @@
   </div>
   <div class="page-bottom-ad" aria-label="Advertisement">
     <div class="page-bottom-ad-inner">
-      <!-- Bottom_01 — 728×90 leaderboard -->
+      <!-- Bottom_01 -->
       <ins
         id="pageFooterAdIns"
         class="adsbygoogle"
-        style="display: inline-block; width: 728px; height: 90px"
+        style="display: block"
         data-ad-client="ca-pub-8449488085448128"
         data-ad-slot="3038848022"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
       ></ins>
+      <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
       <p class="page-bottom-ad-placeholder" id="pageFooterAdPlaceholder" hidden>
         Configure AdSense IDs on the ad unit above if ads do not appear.
       </p>
@@ -981,7 +987,7 @@
   <script>
     const $ = (id) => document.getElementById(id);
 
-    /** Bottom-of-page AdSense unit (does not run in sidebar — avoids layout breakage). */
+    /** Bottom_01: validate IDs / placeholder only; push runs in inline script after the ins. */
     function initPageFooterAd() {
       const ins = document.getElementById("pageFooterAdIns");
       const placeholder = document.getElementById("pageFooterAdPlaceholder");
@@ -998,32 +1004,7 @@
         if (placeholder) placeholder.hidden = false;
         return;
       }
-      ins.style.display = "inline-block";
-      ins.style.width = "728px";
-      ins.style.height = "90px";
-      ins.style.maxWidth = "100%";
       if (placeholder) placeholder.hidden = true;
-      const existing = document.querySelector(
-        'script[src^="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]'
-      );
-      if (existing) {
-        try {
-          (window.adsbygoogle = window.adsbygoogle || []).push({});
-        } catch (_) {}
-        return;
-      }
-      const script = document.createElement("script");
-      script.async = true;
-      script.src =
-        "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=" +
-        encodeURIComponent(client);
-      script.crossOrigin = "anonymous";
-      script.onload = function () {
-        try {
-          (window.adsbygoogle = window.adsbygoogle || []).push({});
-        } catch (_) {}
-      };
-      document.head.appendChild(script);
     }
 
     initPageFooterAd();
@@ -1160,7 +1141,7 @@
         firebaseDb = firebase.firestore();
         /* Safari / WebKit: default WebChannel long-poll can fail with “access control checks” on Listen/channel. */
         try {
-          firebaseDb.settings({ experimentalAutoDetectLongPolling: true });
+          firebaseDb.settings({ experimentalAutoDetectLongPolling: true }, { merge: true });
         } catch (_) {}
         return firebase
           .auth()
