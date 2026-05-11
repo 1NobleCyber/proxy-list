@@ -1,8 +1,8 @@
 # Proxy List
 > [!NOTE]
-> v4.2 | Released: May 07, 2026
-> r82 | Last Updated: May 11, 2026
-> Total onsite links: 4217 (sorted list + unsorted page)\
+> v4.3.1 | Released: May 11, 2026
+> r83 | Last Updated: May 11, 2026
+> Total onsite links: 4122 (sorted list + unsorted page)\
 > https://yourworstnightmare1.github.io/proxy-list/
 <br>
 Welcome to the official Proxy List! This has a running list of hundreds of unblocked websites and games that anyone is free to use. We have the most popular and reliable sites here, so you'll never run out!
@@ -25,14 +25,8 @@ The owner has announced that Selenite is here to stay! The changes made to those
 
 ## Update Notice
 
-### Better Contributions
-Contributors, contribution rules, and ways to contribute are now all on the [Contribute page](https://yourworstnightmare1.github.io/proxy-list/contribute).
-
-### Sorting Unsorted Links
-Links that are already on our main list are being automatically removed from the unsorted list to minimize the amount of unsorted links we have here. I am also working on moving unsorted links to the main list finally, it takes time as there is nearly 2000 links.
-
-### Security Patches
-Fixed a security vulnerability.
+### Bugfix
+Fixed a bug where the contributed link count would decrease when a link was removed via the link removal script. Contributed link counts couldn't be restored from their previous values before the link removal bot took away links but the current link count is unchanged and cannot be changed by the link removal bot.
 
 # 💜 Selenite
 > [!NOTE]

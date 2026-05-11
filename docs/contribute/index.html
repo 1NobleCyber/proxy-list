@@ -233,6 +233,54 @@
       const metaEl = document.getElementById("contributorsMeta");
       const bodyEl = document.getElementById("contributorsBody");
       try {
+        const totalsRes = await fetch("../contributor_link_totals.json");
+        if (totalsRes.ok) {
+          const totalsPayload = await totalsRes.json();
+          const raw = totalsPayload && totalsPayload.contributors;
+          if (raw && typeof raw === "object" && !Array.isArray(raw)) {
+            const list = Object.keys(raw)
+              .map((key) => {
+                const name = normalizeContributorName(key);
+                const v = raw[key];
+                let count = 0;
+                let href = "";
+                if (typeof v === "number") {
+                  count = v;
+                } else if (v && typeof v === "object") {
+                  count = Number(v.links_total != null ? v.links_total : v.count) || 0;
+                  const u = v.contributor_url;
+                  if (u && /^https?:\/\//i.test(String(u).trim())) href = String(u).trim();
+                }
+                return { name, count, href };
+              })
+              .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+
+            if (!list.length) {
+              bodyEl.innerHTML = '<tr><td class="muted" colspan="2">No contributors found yet.</td></tr>';
+              metaEl.textContent = "0 contributors";
+              return;
+            }
+
+            const sumLifetime = list.reduce((s, r) => s + r.count, 0);
+            bodyEl.innerHTML = list
+              .map((r) => {
+                const label = escapeHtml(r.name);
+                const nameCell = r.href
+                  ? '<a href="' + escapeHtml(r.href) + '" rel="noopener noreferrer" target="_blank">' + label + "</a>"
+                  : label;
+                return "<tr><td>" + nameCell + '</td><td class="count">' + r.count + "</td></tr>";
+              })
+              .join("");
+
+            metaEl.textContent =
+              list.length +
+              " contributors • " +
+              sumLifetime +
+              " cumulative links credited (counts do not go down when links are removed)";
+            return;
+          }
+        }
+
         const res = await fetch("../data.json");
         if (!res.ok) throw new Error("Could not load data.json (" + res.status + ")");
         const payload = await res.json();
@@ -270,7 +318,7 @@
           .join("");
 
         metaEl.textContent =
-          list.length + " contributors • " + totalRows + " total links credited";
+          list.length + " contributors • " + totalRows + " links on the list (live count)";
       } catch (err) {
         bodyEl.innerHTML =
           '<tr><td class="muted" colspan="2">Failed to load contributors. ' +

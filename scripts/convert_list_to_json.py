@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 INPUT = ROOT / "list.md"
 OUTPUT = ROOT / "docs" / "data.json"
+CONTRIBUTOR_TOTALS = ROOT / "docs" / "contributor_link_totals.json"
 LINK_CHECK_META = ROOT / "docs" / "link_check_meta.json"
 LINK_STATUS = ROOT / "link_status.json"
 POPULAR_LINKS = ROOT / "docs" / "popular_links.json"
@@ -47,6 +48,12 @@ def split_list_field(s: str) -> list[str]:
 
 
 _CONTRIBUTOR_MD = re.compile(r"^\[([^\]]+)\]\(([^)]+)\)\s*$")
+
+
+def normalize_contributor_name(raw: str) -> str:
+    """Match docs/contribute/index.html normalizeContributorName for stable JSON keys."""
+    s = (raw or "").strip()
+    return s if s else "Anonymous Contributor"
 
 
 def parse_contributor_cell(raw: str) -> tuple[str, str | None]:
@@ -324,6 +331,98 @@ def parse_list_md(text: str) -> list[dict]:
     return rows
 
 
+def contributor_counts_from_rows(rows: list[dict]) -> dict[str, dict]:
+    """Per normalized contributor: live row count and first seen profile URL."""
+    out: dict[str, dict] = {}
+    for row in rows:
+        label = normalize_contributor_name(str(row.get("contributor") or ""))
+        href = row.get("contributor_url")
+        href_s = href.strip() if isinstance(href, str) else None
+        if label not in out:
+            out[label] = {"count": 0, "href": None}
+        e = out[label]
+        e["count"] += 1
+        if not e["href"] and href_s:
+            e["href"] = href_s
+    return out
+
+
+def load_contributor_totals(path: Path) -> dict[str, dict[str, object]]:
+    if not path.is_file():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    raw = data.get("contributors")
+    if not isinstance(raw, dict):
+        return {}
+    out: dict[str, dict[str, object]] = {}
+    for k, v in raw.items():
+        name = normalize_contributor_name(str(k))
+        if isinstance(v, int):
+            out[name] = {"links_total": max(0, v), "contributor_url": None}
+            continue
+        if not isinstance(v, dict):
+            continue
+        lt = v.get("links_total", v.get("count", 0))
+        try:
+            n = max(0, int(lt))
+        except (TypeError, ValueError):
+            n = 0
+        url = v.get("contributor_url")
+        out[name] = {
+            "links_total": n,
+            "contributor_url": url.strip() if isinstance(url, str) and url.strip() else None,
+        }
+    return out
+
+
+def merge_contributor_totals(
+    existing: dict[str, dict[str, object]],
+    current: dict[str, dict],
+) -> dict[str, dict[str, object | None]]:
+    """Never decrease a contributor's total when links are removed from list.md."""
+    merged: dict[str, dict[str, object | None]] = {}
+    for name, v in existing.items():
+        try:
+            n = max(0, int(v.get("links_total", 0)))
+        except (TypeError, ValueError):
+            n = 0
+        u = v.get("contributor_url")
+        merged[name] = {
+            "links_total": n,
+            "contributor_url": u if isinstance(u, str) and u.strip() else None,
+        }
+    for name, cur in current.items():
+        c = max(0, int(cur.get("count", 0)))
+        href = cur.get("href")
+        href_s = href if isinstance(href, str) and href.strip() else None
+        prev = merged.get(name, {"links_total": 0, "contributor_url": None})
+        try:
+            prev_n = max(0, int(prev.get("links_total", 0)))
+        except (TypeError, ValueError):
+            prev_n = 0
+        prev_u = prev.get("contributor_url")
+        merged[name] = {
+            "links_total": max(prev_n, c),
+            "contributor_url": (prev_u if isinstance(prev_u, str) and prev_u.strip() else None) or href_s,
+        }
+    return merged
+
+
+def write_contributor_totals(path: Path, merged: dict[str, dict[str, object | None]]) -> None:
+    contributors = {
+        name: {
+            "links_total": int(data.get("links_total", 0)),
+            "contributor_url": data.get("contributor_url"),
+        }
+        for name, data in sorted(merged.items(), key=lambda kv: kv[0].casefold())
+    }
+    body = {"contributors": contributors, "_note": "links_total is cumulative; convert_list_to_json.py updates with max(previous, current live count)."}
+    path.write_text(json.dumps(body, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
 def main() -> int:
     if not INPUT.is_file():
         print(f"Missing {INPUT}", file=sys.stderr)
@@ -333,6 +432,10 @@ def main() -> int:
     important = parse_important_notices(raw)
     update_notice = parse_update_notice(raw)
     links = parse_list_md(raw)
+    live_by_contributor = contributor_counts_from_rows(links)
+    prev_totals = load_contributor_totals(CONTRIBUTOR_TOTALS)
+    merged_totals = merge_contributor_totals(prev_totals, live_by_contributor)
+    write_contributor_totals(CONTRIBUTOR_TOTALS, merged_totals)
     sorted_keys = {_normalize_url_key(row.get("link", "")) for row in links if row.get("link")}
     unsorted_links = parse_unsorted_links(sorted_keys)
     popular_urls, popular_note = load_popular_config()
@@ -355,7 +458,8 @@ def main() -> int:
     UNSORTED_OUTPUT.write_text(json.dumps({"links": unsorted_links}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(
-        f"Wrote {len(links)} sorted links to {OUTPUT}, {len(unsorted_links)} unsorted links to {UNSORTED_OUTPUT} "
+        f"Wrote {len(links)} sorted links to {OUTPUT}, {len(unsorted_links)} unsorted links to {UNSORTED_OUTPUT}, "
+        f"{len(merged_totals)} contributor totals to {CONTRIBUTOR_TOTALS} "
         f"({meta.get('version', '')}{meta.get('revision', '')})"
     )
     return 0
